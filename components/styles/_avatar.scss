@@ -1,0 +1,55 @@
+
+.avatar{
+  position: relative; width:24px; height:24px;  
+  >.avatar-inner{
+    width:100%; height:100%; overflow: hidden; display: flex; justify-content: center; align-items: center;
+    outline: 2px solid var(#{$prefix}-color-surface-page-bg-white); line-height: 1em;
+    background-size: contain; background-position: center;
+    border-radius: 50%;
+    background-image: url('../assets/avatar_default_circle.png');
+  }
+  >.indicator-top, .indicator-bottom{
+    position: absolute; border-radius: 50%; overflow: hidden; outline: 2px solid var(#{$prefix}-color-surface-page-bg-white);
+    background-color: var(#{$prefix}-color-static-pastel-300-green);
+  }
+  >.indicator-bottom{
+    width:12px; height: 12px; right:-4px; bottom: -4px;
+    background-size: contain; background-position: center;
+    &#sns-naver{ background-image: url('../assets/naver_color_square.png'); }
+    >img{ max-width: 100%; }
+  }
+  &.xs { 
+    width:28px; height: 28px;
+  }
+  &.sm { 
+    width:32px; height: 32px;
+  }
+  &.regular { 
+    width:40px; height: 40px;
+  }
+  &.lg { 
+    width:52px; height: 52px;
+  }
+  &.xl { 
+    width:64px; height: 64px;
+  }
+  &[avatar-type=initial]{
+    >.avatar-inner{
+      background-image: none; font-weight: 500; text-align: center; color:black;
+      background-color: var(#{$prefix}-color-static-pastel-200-blue);
+      font-size:10px; 
+    }
+    &.sm { 
+      >.avatar-inner{font-size:12px;}
+    }
+    &.regular { 
+      >.avatar-inner{font-size:17px;}
+    }
+    &.lg { 
+      >.avatar-inner{font-size:28px;}
+    }
+    &.xl { 
+      >.avatar-inner{font-size:28px;}
+    }
+  }
+}

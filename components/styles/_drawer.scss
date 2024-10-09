@@ -1,0 +1,22 @@
+
+.drawer-container{
+  margin-top:32px; position: fixed; left: 0px; right: 0px; bottom:0; height: auto; 
+  display: flex; background-color: var(#{$prefix}-color-surface-modal-bg);
+  border-radius: 12px 12px 0 0; flex-direction: column; padding: 12px 0 16px 0;
+  .drawer-bar{
+    height:4px; border-radius: 4px; width: 100px; margin: 0 auto;
+    background-color: var(#{$prefix}-color-global-gray-20);
+  }
+  .drawer-content{
+    position: relative; margin:0 auto; width:100%; max-width: 560px; padding: 0 16px;
+    
+    .drawer-header{
+      width:100%; padding: 16px 0; display: flex; flex-direction: column; 
+      >h2{ font-size:21px; margin-bottom: 8px;}
+      >p{ font-size: 17px; line-height: 1.5em; }
+    }
+  }
+  .drawer-footer{
+    width:100%; display: flex; flex-direction: row;
+  }
+}

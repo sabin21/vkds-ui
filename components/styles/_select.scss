@@ -1,0 +1,25 @@
+
+.select{
+  width:100%; max-width: 560px; height: 48px;
+  border:1px solid var(#{$prefix}-color-global-gray-40); border-radius: 6px;  
+  >[class*="-control"] {
+    display: flex; align-items: center; padding-left: 1rem;
+    border-radius: 6px; border: 1px solid transparent; height: 100%;
+    box-shadow: none;
+    &:hover{ border: 1px solid var(#{$prefix}-color-global-gray-60)}  
+     
+  }
+  [class*="-indicatorSeparator"]{
+      opacity: 0;
+  }
+  >[class*="-menu"]{
+    font-size:15px;
+  }  
+}
+.select-group{
+  display: flex; align-items: center; justify-content: space-between;
+  .select-grouped-badge{
+    background-color: var(#{$prefix}-color-global-gray-10); border-radius: 12px;
+    font-size:11px; padding: 4px 4px; height:16px; line-height: 1em;
+  }
+}

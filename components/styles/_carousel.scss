@@ -1,0 +1,9 @@
+
+.carousel-wrap{
+  position: relative; width:100%; 
+  .carousel-control-btn{
+    position: absolute; border-radius: 50%; width: 40px; height:40px;
+    border:1px solid var(#{$prefix}-color-global-gray-50);
+    >.arrow{ width: 16px; height:16px; }
+  }
+}

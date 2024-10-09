@@ -1,0 +1,86 @@
+
+$prefix:     --vk;
+
+@import '../icons/vk-icons/vk-icons.css';
+@import '../icons/control-round/control-round.css';
+@import '../icons/material/material.css';
+@import '_reboot.scss';
+@import '../tokens/base_token.scss';
+@import '../tokens/color_token.scss';
+@import 'mixins.scss';
+@import 'animation.scss';
+@import 'partial-content.scss';
+
+@import 'accordion.scss';
+@import 'avatar.scss';
+@import 'banner.scss';
+@import 'button.scss';
+@import 'calendar.scss';
+@import 'card_common.scss';
+@import 'card.scss';
+@import 'carousel.scss';
+@import 'drawer.scss';
+@import 'item-bar.scss';
+@import 'forms.scss';
+@import 'link.scss';
+@import 'list.scss';
+@import 'nav.scss';
+@import 'pagination.scss';
+@import 'overlay.scss';
+@import 'modal.scss';
+@import 'badge.scss';
+@import 'tab.scss';
+@import 'tile.scss';
+@import 'select.scss';
+@import 'input.scss';
+@import 'table.scss';
+
+// @import 'bt_layout/bt_layout.scss';
+
+html, :host {
+  font-size: 62.5%;
+}
+
+body{
+  color: var(#{$prefix}-color-text-body-default);
+  font-size: var(#{$prefix}-type-scale-body-base);
+  font-family: var(#{$prefix}-font-family-base);
+  line-height: var(#{$prefix}-line-height-base);
+  letter-spacing: var(#{$prefix}-letter-spacing-base);
+  background-color: var(#{$prefix}-color-surface-page-bg-white);
+  &[data-device="mobile"]{
+    &::-webkit-scrollbar{
+      width: 1px; background-color: var(#{$prefix}-color-global-gray-10);
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: var(#{$prefix}-color-global-gray-20);
+    }
+  }
+}
+a{
+  text-decoration: none;
+}
+
+.content-wrap{
+  position: relative; width:100%; padding-bottom: 64px;
+  >.content-block{
+    position: relative; width: 100%; padding: 0 16px; 
+    &:first-child {
+      margin-top: 110px;
+    }
+  }
+  >.section-block{
+    position: relative; width:100%; margin: 3.2rem 0 4.8rem 0;
+    >h3 { 
+      width:100%; font-weight: bold; font-size: 2.8rem; margin-bottom: 3.2rem;
+      padding-top: 3.2rem;
+      border-top: 1px solid var(#{$prefix}-color-global-gray-20);
+    }
+    &.level2{
+      position: relative; width:100%; 
+      >h4{ 
+        width: 100%; font-size: 21px; font-weight: bold; margin-bottom: 2.4rem;
+      }
+    }
+  }
+}

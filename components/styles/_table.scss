@@ -1,0 +1,22 @@
+
+.table{
+  width:100%; font-size:var(#{$prefix}-type-scale-body-sm);
+  >thead{
+    background-color: var(#{$prefix}-color-global-slate-200);
+    border-bottom: 1px solid var(#{$prefix}-table-border-color);
+    >tr{
+      >th{
+        padding: 1.2rem 0;
+      }
+    }  
+  }
+  >tbody{
+    >tr{
+      background-color: var(#{$prefix}-color-global-slate-100);
+      border-bottom: 1px solid var(#{$prefix}-table-border-color);
+      >td{
+        padding: 1.2rem 1.6rem;
+      }
+    }  
+  }
+}

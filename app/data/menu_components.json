@@ -1,0 +1,318 @@
+
+[  
+  {
+    "name": "Buttons",
+    "groupId": "buttons",
+    "category": "component",
+    "componentItems":[
+      {
+        "componentId": "action-button",
+        "componentHeadline": "Action Button",
+        "headlineCopy": "Action Button은 사용자가 특정 행동이나 액션을 수행하기 위해 사용됩니다. 반복적인 행동과 폼관련 액션에 사용된다는 점에서 Button과 차이점을 갖습니다.",
+        "workThumbSrc" : "/com_doc/link.svg",
+        "viewContent" : "./contents/action-button-content.tsx"
+      },
+      {
+        "componentId": "button",
+        "componentHeadline": "Button",
+        "headlineCopy": "Button은 특정 이벤트나 동작을 발생시키며 사용자에게 다음 액션에서 무슨 일이 일어날지 알려줍니다.",
+        "workThumbSrc" : "/com_doc/button.svg",
+        "viewContent" : "./contents/button-content.tsx",
+        "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html",
+        "linkShadcn" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html"
+      }    
+    ]
+  },
+  {
+    "name": "Input and Selection",
+    "groupId": "inputAndSelection",
+    "category": "component",
+    "componentItems":[
+      {
+        "componentId": "calendar",
+        "componentHeadline": "Calendar",
+        "headlineCopy": "사용자가 날짜를 입력하고 편집할 수 있는 날짜 필드 구성 요소입니다.",
+        "workThumbSrc" : "/com_doc/textfield.svg",
+        "viewContent" : "./contents/calendar.jsx",
+        "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_04_03.html",
+        "linkShadcn" : "https://ui.shadcn.com/docs/components/calendar" 
+      },
+      {
+        "componentId": "checkbox",
+        "componentHeadline": "Checkbox",
+        "headlineCopy": "체크박스는 사용자가 여러 개의 옵션 중 한 개 이상의 값을 선택할 수 있도록 하는 경우에 사용합니다.",
+        "workThumbSrc" : "/com_doc/textfield.svg",
+        "viewContent" : "./contents/checkbox-content.tsx",
+        "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html",
+        "linkShadcn" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+      },
+      {
+        "componentId": "chip",
+        "componentHeadline": "Chip",
+        "headlineCopy": "Chip는 사용자가 여러 항목에서 하나 또는 여러 개를 선택할 수 있도록 하는 구성요소입니다.",
+        "workThumbSrc" : "/com_doc/textfield.svg",
+        "viewContent" : "./contents/chip-content.tsx",
+        "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html",
+        "linkShadcn" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+      },
+      {
+        "componentId": "datepicker",
+        "componentHeadline": "Datepicker",
+        "headlineCopy": "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
+        "workThumbSrc" : "/com_doc/textfield.svg",
+        "viewContent" : "./contents/datepicker.jsx",
+        "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html",
+        "linkShadcn" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+      },
+      {
+        "componentId": "input",
+        "componentHeadline": "Input",
+        "headlineCopy": "고객사들을 위해 차별화된 서비스와 ssadfsaf컨텐츠를 제공하는 맞춤형 컨텐츠 플랫폼",
+        "workThumbSrc" : "/com_doc/textfield.svg",
+        "viewContent" : "./contents/input-content.tsx",
+        "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html",
+        "linkShadcn" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+      },
+      {
+        "componentId": "radio",
+        "componentHeadline": "Radio Group",
+        "headlineCopy": "라디오 버튼이라고도 하는 체크 가능한 버튼 세트로, 한 번에 두 개 이상의 버튼을 체크할 수 없습니다.",
+        "workThumbSrc" : "/com_doc/link.svg",
+        "viewContent" : "./contents/radio-group-content.tsx",
+        "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_06_01.html",
+        "linkShadcn" : "https://ui.shadcn.com/docs/components/radio-group" 
+      },
+      {
+        "componentId": "numbericStepper",
+        "componentHeadline": "Numberic Stepper",
+        "headlineCopy": "Numberic Stepper는 숫자 값을 늘리거나 줄이는 데 사용되는 구성 요소입니다. 일반적으로 플러스 및 마이너스 버튼을 사용하여 값을 늘리거나 줄입니다.",
+        "workThumbSrc" : "/com_doc/link.svg",
+        "viewContent" : "./contents/numbericStepper-content.tsx",
+        "linkVkds" : "",
+        "linkShadcn" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+      },
+      {
+        "componentId": "select",
+        "componentHeadline": "Select",
+        "headlineCopy": "Tabs은 한 페이지안에서 유사한 정보들을 그룹화하여 콘텐츠를 구성하는데 사용됩니다.",
+        "workThumbSrc" : "/com_doc/tabs.svg",
+        "viewContent" : "./contents/select.tsx",
+        "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html",
+        "linkShadcn" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+      },
+      {
+        "componentId": "switch",
+        "componentHeadline": "Switch",
+        "headlineCopy": "사용자가 선택 상태와 선택 해제 상태를 전환할 수 있는 컨트롤 요소입니다.",
+        "workThumbSrc" : "/com_doc/tabs.svg",
+        "viewContent" : "./contents/switch.tsx",
+        "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html",
+        "linkShadcn" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+      } 
+    ]
+  },
+  {
+    "name": "Indicator and Status",
+    "groupId": "indicatorAndStatus",
+    "category": "component",
+    "componentItems":[
+      {
+        "componentId": "badge",
+        "componentHeadline": "Badge",
+        "headlineCopy": "Badge는 유용한 세부 정보나 속성을 보여주는 정적인 구성 요소입니다.",
+        "workThumbSrc" : "/com_doc/link.svg",
+        "viewContent" : "./contents/badge-content.tsx",
+        "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html",
+        "linkShadcn" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+      },
+      {
+        "componentId": "indicator",
+        "componentHeadline": "Indicator",
+        "headlineCopy": "Indicator는 이벤트의 현재 상태를 표시하는 역할을 합니다.",
+        "workThumbSrc" : "/com_doc/tabs.svg",
+        "viewContent" : "./contents/indicator.jsx",
+        "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html",
+        "linkShadcn" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+      }    
+    ]
+  },
+  {
+    "name": "Content Display",
+    "groupId": "contentDisplay",
+    "category": "component",
+    "componentItems":[
+      {
+        "componentId": "accordion",
+        "componentHeadline": "Accordion",
+        "headlineCopy": "Accordion은 수직방향으로 정렬된 리스트 항목마다 열리고 닫는 동작을 통해 컨텐츠 섹션을 보여줍니다.",
+        "workThumbSrc" : "/com_doc/button.svg",
+        "viewContent" : "./contents/accordion.tsx"
+      },
+      {
+        "componentId": "avatar",
+        "componentHeadline": "Avatar",
+        "headlineCopy": "Avatar는 사용자를 시각적으로 표시하는 컴포넌트입니다.",
+        "workThumbSrc" : "/com_doc/link.svg",
+        "viewContent" : "./contents/avatar.tsx"
+      },
+      {
+        "componentId": "card-promotion",
+        "componentHeadline": "Card Promotion",
+        "headlineCopy": "Action Button은 사용자가 특정 행동이나 액션을 수행하기 위해 사용됩니다. 반복적인 행동과 폼관련 액션에 사용된다는 점에서 Button과 차이점을 갖습니다.",
+        "workThumbSrc" : "/com_doc/link.svg",
+        "viewContent" : "./contents/card-promotion.tsx"
+      },
+      {
+        "componentId": "cardMessage",
+        "componentHeadline": "Card Message",
+        "headlineCopy": "Action Button은 사용자가 특정 행동이나 액션을 수행하기 위해 사용됩니다. 반복적인 행동과 폼관련 액션에 사용된다는 점에서 Button과 차이점을 갖습니다.",
+        "workThumbSrc" : "/com_doc/link.svg",
+        "viewContent" : "./contents/card-message-content.tsx"
+      },
+      {
+        "componentId": "list",
+        "componentHeadline": "List",
+        "headlineCopy": "List는 텍스트나 이미지들을 수직방향으로 정렬한 목록입니다.",
+        "workThumbSrc" : "/com_doc/link.svg",
+        "viewContent" : "./contents/list-content.tsx",
+        "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_05_01.html",
+        "linkShadcn" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+      }      
+    ]
+  },
+  
+  
+  {
+    "componentId": "alert-dialog",
+    "componentHeadline": "Alert Dialog",
+    "headlineCopy": "중요한 사항에 대해 사용자가 액션을 취할 경우 경고를 하고 재확인을 하는 모달 대화상자 입니다.",
+    "workThumbSrc" : "/com_doc/button.svg",
+    "viewContent" : "./contents/alert-dialog.tsx",
+    "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_04_05.html",
+    "linkShadcn" : "https://ui.shadcn.com/docs/components/alert-dialog"
+  },
+  
+  
+  {
+    "componentId": "banner",
+    "componentHeadline": "Banner",
+    "headlineCopy": "Badge는 유용한 세부 정보나 속성을 보여주는 정적인 구성 요소입니다.",
+    "workThumbSrc" : "/com_doc/link.svg",
+    "viewContent" : "./contents/banner-content.tsx",
+    "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html",
+    "linkShadcn" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+  },
+  
+  
+  
+  {
+    "componentId": "carousel",
+    "componentHeadline": "Carousel",
+    "headlineCopy": "이미지나 텍스트로 구성된 슬라이드요소를 순환적으로 디스플레이하는 슬라이드쇼 컴포넌트입니다.",
+    "workThumbSrc" : "/com_doc/link.svg",
+    "viewContent" : "./contents/carousel-content.tsx",
+    "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html",
+    "linkShadcn" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+  },  
+  
+  
+  
+  {
+    "componentId": "drawer",
+    "componentHeadline": "Drawer",
+    "headlineCopy": "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
+    "workThumbSrc" : "/com_doc/textfield.svg",
+    "viewContent" : "./contents/drawer-content.tsx",
+    "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html",
+    "linkShadcn" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+  },
+  
+  {
+    "componentId": "link",
+    "componentHeadline": "Link",
+    "headlineCopy": "링크는 사람들을 제품의 새로운 위치나 다른 웹사이트로 이동시킵니다.",
+    "workThumbSrc" : "/com_doc/link.svg",
+    "viewContent" : "./contents/link.tsx",
+    "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_05_01.html",
+    "linkShadcn" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+  },
+  
+  {
+    "componentId": "navigationHeader",
+    "componentHeadline": "Navigation Header",
+    "headlineCopy": "List는 텍스트나 이미지들을 수직방향으로 정렬한 목록입니다.",
+    "workThumbSrc" : "/com_doc/link.svg",
+    "viewContent" : "./contents/navigation-header-content.tsx",
+    "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_05_01.html",
+    "linkShadcn" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+  },
+  
+  {
+    "componentId": "pagination",
+    "componentHeadline": "Pagination",
+    "headlineCopy": "Pagination은 주어진 컨텍스트 내에서 로드된 페이지 또는 다른 콘텐츠의 수를 전달합니다. 사용자에게 현재 위치를 보여주고 이전, 다음 및 마지막 페이지에 액세스할 수 있도록 합니다.",
+    "workThumbSrc" : "/com_doc/link.svg",
+    "viewContent" : "./contents/pagination-content.tsx",
+    "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html",
+    "linkShadcn" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+  },
+  {
+    "componentId": "popover",
+    "componentHeadline": "Popover",
+    "headlineCopy": "버튼을 클릭하면 포털에 풍부한 콘텐츠가 표시됩니다.",
+    "workThumbSrc" : "/com_doc/link.svg",
+    "viewContent" : "./contents/popover.jsx",
+    "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html",
+    "linkShadcn" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+  },
+  
+  
+  {
+    "componentId": "segmentControl",
+    "componentHeadline": "Semented Control",
+    "headlineCopy": "Segment를 사용하면 비슷한 수준의 기능을 가진 두 개 이상의 버튼을 한곳에 모아서 제어할 수 있습니다.",
+    "workThumbSrc" : "/com_doc/tabs.svg",
+    "viewContent" : "./contents/segment-control-content.tsx",
+    "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html",
+    "linkShadcn" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+  },
+    
+  
+  {
+    "componentId": "tabs",
+    "componentHeadline": "Tabs",
+    "headlineCopy": "Tabs은 한 페이지안에서 유사한 정보들을 그룹화하여 콘텐츠를 구성하는데 사용됩니다.",
+    "workThumbSrc" : "/com_doc/tabs.svg",
+    "viewContent" : "./contents/tabs.jsx",
+    "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html",
+    "linkShadcn" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+  },
+  {
+    "componentId": "tile",
+    "componentHeadline": "Tile",
+    "headlineCopy": "Tile은 선택 패턴에 대한 추가 컨트롤을 포함할 수 있는 버튼과 같은 구성 요소입니다. 타일 내부의 요소는 레이아웃에 따라 정사각형 또는 직사각형이 될 수 있는 타일 모양에 적합한 방식으로 정렬됩니다.",
+    "workThumbSrc" : "/com_doc/tabs.svg",
+    "viewContent" : "./contents/tile-content.tsx",
+    "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html",
+    "linkShadcn" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+  },
+  {
+    "componentId": "toast",
+    "componentHeadline": "Toast",
+    "headlineCopy": "Toast는 짧은 메시지나 알림을 표시하는 데 사용되는 웹이나 태블릿용 구성 요소입니다. 토스트는 종종 양식 제출이나 작업 완료와 같은 성공 또는 실패한 작업을 확인합니다. 일반적으로 자동으로 사라지기 전에 몇 초 동안 표시되지만 해제할 때까지 남아 있을 수 있습니다.",
+    "workThumbSrc" : "/com_doc/tabs.svg",
+    "viewContent" : "./contents/toast-content.tsx",
+    "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html",
+    "linkShadcn" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+  },
+  
+  {
+    "componentId": "tooltip",
+    "componentHeadline": "Tooltip",
+    "headlineCopy": "요소가 키보드 포커스를 받거나 마우스를 그 위에 올려 놓으면 해당 요소와 관련된 정보를 표시하는 팝업입니다.",
+    "workThumbSrc" : "/com_doc/tabs.svg",
+    "viewContent" : "./contents/tooltip-content.tsx",
+    "linkVkds" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html",
+    "linkShadcn" : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+  }
+]

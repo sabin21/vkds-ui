@@ -1,0 +1,26 @@
+
+.item-bar-wrap{
+  position: relative; width:100%; 
+  // border: 1px solid;
+  >.swiper{
+    position: relative; width:calc(100% - 48px); 
+    >.swiper-wrapper{
+      position: relative; width:100%; padding: 0 12rem 0 2rem;
+      >.swiper-slide{
+        width:auto;
+        &:last-child{
+          width:200px;
+        }
+      }
+    }
+    
+  }
+  >.swiper-button-prev, .swiper-button-next {
+    width:24px; height:24px; font-size:16px; display: flex; justify-content: center; align-items: center;
+    top: var(20px, 50%);
+    &:after{
+      width:20px; height: 20px; font-size:16px;
+      color: var(#{$prefix}-color-global-gray-70);
+    }
+  } 
+}

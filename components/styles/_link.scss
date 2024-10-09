@@ -1,0 +1,47 @@
+
+.link {
+  display: inline-block; line-height: 1em;
+  font-weight: var(#{$prefix}-font-weight-medium);
+  text-decoration: underline;
+  text-underline-position : under;
+  &.primary{
+    color: var(#{$prefix}-color-brand-primary-600);
+  }
+  &.subtle{
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
+  &.static-white{
+    color: white;
+  }
+  >i{
+    margin-bottom:2px;  
+  }
+  &.xxs { 
+    font-size: var(#{$prefix}-type-scale-body-xxs);
+    >.leading-icon { margin-right: 2px;}
+    >.trailing-icon { margin-left: 2px;}
+  }
+  &.xs { 
+    font-size: var(#{$prefix}-type-scale-body-xs);
+    >.leading-icon { margin-right: 3px;}
+    >.trailing-icon { margin-left: 3px;}
+  }
+  &.sm { 
+    font-size: var(#{$prefix}-type-scale-body-sm);
+    >.leading-icon { margin-right: 4px;}
+    >.trailing-icon { margin-left: 4px;}
+  }
+  &.regular { 
+    font-size: var(#{$prefix}-type-scale-body-regular);
+    >.leading-icon { margin-right: 4px;}
+    >.trailing-icon { margin-left: 4px;}
+  }
+  &.lg { 
+    font-size: var(#{$prefix}-type-scale-body-lg);
+    >.leading-icon { margin-right: 5px;}
+    >.trailing-icon { margin-left: 5px;}
+  }
+}

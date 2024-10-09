@@ -1,0 +1,20 @@
+
+
+@mixin border_focus{
+  &:focus-visible{
+    outline: 4px solid var(#{$prefix}-color-border-focus);
+  }
+}
+@mixin border_focus_static{
+  &:focus-visible{
+    outline: 4px solid var(#{$prefix}-color-static-white-alpha-75);
+  }
+}
+
+@mixin placeholder{ 
+    letter-spacing: 0;
+    font-size: var(#{$prefix}-type-scale-body-sm);
+    color: var(#{$prefix}-color-text-body-default);
+    font-weight: var(#{$prefix}-font-weight-regular);
+    opacity: 0.4;  
+}

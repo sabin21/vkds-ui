@@ -1,0 +1,52 @@
+
+.calendar{
+  border: 1px solid var(#{$prefix}-color-global-gray-30);
+  >.months{
+    display: flex; flex-direction: column; padding: 8px 16px 16px 16px; background-color: var(#{$prefix}-color-surface-modal-bg);
+    border-radius: 8px;
+    filter: var(#{$prefix}-shadow-sm);
+    >.month{         
+      >.caption{
+        display: flex; justify-content: center; align-items: center; position: relative;
+        height:56px; border-bottom: 1px solid var(#{$prefix}-color-global-gray-20);   
+        >.caption-label{
+          font-size: 17px; font-weight: bold;
+        }
+      }
+    }
+  }
+  .calendar-nav{
+    width:100%; display: flex; align-items: center; justify-content: space-between;
+    position: absolute; 
+  }
+  .calendar-table{
+    width:100%; 
+    .calendar-table-head{
+      display: flex; margin:4px 0;
+      >.table-head-cell{
+        width:36px; height:36; font-weight: 400; font-size: 1.4rem; 
+        color: var(#{$prefix}-color-global-gray-60);
+      }
+    }
+    .calendar-table-row{
+      display: flex; width:100%; margin-top:4px;
+    }
+    .calendar-cell{
+      position: relative; text-align: center; padding:0;
+      // background-color: var(#{$prefix}-color-global-gray-10);
+      .calendar-day{
+        padding:0; width:36px; height: 36px; text-align: center;
+        font-size:15px; font-weight: 500; color: var(#{$prefix}-color-global-gray-80);
+        &:focus{ 
+          outline: 0px; background-color: var(#{$prefix}-color-global-gray-80);
+          color:white;
+        }
+        &:selected { background-color: var(#{$prefix}-color-global-gray-80);}
+        &:aria-selected { background-color: var(#{$prefix}-color-global-gray-80);}
+        &.day-disabled, &.day-outside{
+          opacity: 0.5;
+        }
+      }
+    }
+  }
+}

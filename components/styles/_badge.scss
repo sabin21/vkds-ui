@@ -1,0 +1,171 @@
+
+.badge{
+  display: block; padding:0.3em 0.55em 0.25em 0.5em; color:white; 
+  line-height: 1em; border-radius: 40px;
+  text-align: center; font-size: 9px; outline: 0px; border:1px solid transparent;
+  background-color: var(#{$prefix}-color-badge-bg-primary);
+  outline: 2px solid var(#{$prefix}-color-surface-page-bg-white);
+  position: absolute;
+  &.sm {
+    font-size:11px;
+  }
+  &.regular {
+    font-size:13px;
+  }
+  &.strong{
+    background-color: var(#{$prefix}-color-badge-bg-strong);
+  }
+  &.outline{
+    background-color: var(#{$prefix}-color-icon-white-black);
+    border:1px solid var(#{$prefix}-color-global-gray-50); 
+    color: var(#{$prefix}-color-text-body-default);
+  }
+  &.static-white{
+    background-color: white;
+    color: var(#{$prefix}-color-text-body-default);
+  }
+  &.dot{
+    padding:0; width:10px; height:10px;
+    background-color: var(#{$prefix}-color-badge-bg-primary);
+    &.align-tr { top:0px; right:0px; }
+    &.gray{ background-color: var(#{$prefix}-color-global-slate-600); }
+    &.blue{ background-color: var(#{$prefix}-color-badge-dot-blue); }
+    &.green{ background-color: var(#{$prefix}-color-badge-dot-green); }
+    &.red{ background-color: var(#{$prefix}-color-badge-dot-red); }
+    &.purple{ background-color: var(#{$prefix}-color-badge-static-purple-bg); }
+    &.xs { width:6px; height:6px; }
+    &.sm{ width:10px; height:10px; }
+    &.lg{ width:14px; height:14px;}
+    &.xl{ width:16px; height:16px;}
+  }
+
+  &.icon{
+    position: absolute; width: 20px; height: 20px; overflow: hidden; 
+    color:white; text-align: center; display: flex; align-items: center; justify-content: center;
+    >svg{
+      position: absolute; left:50%; top:50%; transform: translate(-50%, -50%); width:12px; height:12px;
+      path{
+        fill:#ffffff; 
+      }
+    }
+    &.xs{
+      width: 12px; height: 12px;
+      >svg{
+        width:7px; height:7px;
+      }
+    }
+    &.sm{
+      width: 18px; height: 18px;
+      >svg{
+        width:10px; height:10px;
+      }
+    }
+    &.lg {
+      width: 24px; height: 24px;
+      >svg{
+        width:14px; height:14px;
+      }
+    }
+    &.xl {
+      width: 28px; height: 28px;
+      >svg{
+        width:16px; height:16px;
+      }
+    }
+    &.icon-bg-naver{ background-color: #03c75a; }
+  }
+  &.align-tr { top:-4px; right:-4px; }
+  &.align-br { bottom:-2px; right:-4px; }
+}
+
+.indicator {
+  display: flex; align-items: center; font-weight: var(#{$prefix}-text-weight-medium);
+  font-size: 1.5rem; line-height: 0.9em; padding: 0.4rem 0.4rem 0.3rem 0.4rem; border-radius: 3px;
+  background-color: var(#{$prefix}-color-badge-light-gray-bg);
+  // border: 1px solid var(#{$prefix}-color-badge-light-gray-border);
+  &.sm{
+    font-size:1.2rem;
+  }
+  &.informative{
+    background-color: var(#{$prefix}-color-badge-light-blue-bg);
+    // border: 1px solid var(#{$prefix}-color-badge-light-blue-border);
+    color: var(#{$prefix}-color-global-blue-800);
+  }
+  &.success{
+    background-color: var(#{$prefix}-color-badge-light-green-bg);
+    // border: 1px solid var(#{$prefix}-color-badge-light-green-border);
+    color: var(#{$prefix}-color-global-green-800);
+  }
+  &.warning{
+    background-color: var(#{$prefix}-color-badge-light-red-bg);
+    // border: 1px solid var(#{$prefix}-color-badge-light-red-border);
+    color: var(#{$prefix}-color-global-red-800);
+  }
+  &.emphasis{
+    background-color: var(#{$prefix}-color-badge-light-purple-bg);
+    // border: 1px solid var(#{$prefix}-color-badge-light-purple-border);
+    color: var(#{$prefix}-color-global-purple-800);
+  }
+}
+
+.indicator.dot-bg{
+  position: relative; border-radius: 30px;padding: 0.6rem 1.2rem 0.5rem 1.8rem;
+  border: 1px solid transparent;
+  &::after{
+    content: ''; display: block; position: absolute; left:8px; border-radius: 50%;
+    background-color: var(#{$prefix}-color-badge-dot-gray);
+    width: 6px; height: 6px; 
+  }
+  &.sm {
+    padding: 0.6rem 1rem 0.5rem 1.8rem;
+  }
+  &.informative{
+    background-color: var(#{$prefix}-color-badge-light-blue-bg);
+    color: var(#{$prefix}-color-global-blue-800);
+    &::after{
+      background-color: var(#{$prefix}-color-badge-dot-blue);
+    }
+  }
+  &.success{
+    background-color: var(#{$prefix}-color-badge-light-green-bg);
+    color: var(#{$prefix}-color-global-green-800);
+    &::after{
+      background-color: var(#{$prefix}-color-badge-dot-green);
+    }
+  }
+  &.warning{
+    background-color: var(#{$prefix}-color-badge-light-red-bg);
+    color: var(#{$prefix}-color-global-red-800);
+    &::after{
+      background-color: var(#{$prefix}-color-badge-dot-red);
+    }
+  }
+  &.emphasis{
+    background-color: var(#{$prefix}-color-badge-light-purple-bg);
+    color: var(#{$prefix}-color-global-purple-800);
+    &::after{
+      background-color: var(#{$prefix}-color-badge-dot-purple);
+    }
+  }
+}
+
+.indicator.dot-bg.static{
+  color:white;
+  background-color: var(#{$prefix}-color-badge-static-gray-bg);
+  &.informative{
+    background-color: var(#{$prefix}-color-badge-static-blue-bg);
+  }
+  &.success{
+    background-color: var(#{$prefix}-color-badge-static-green-bg);
+  }
+  &.warning{
+    background-color: var(#{$prefix}-color-badge-static-red-bg);
+  }
+  &.emphasis{
+    background-color: var(#{$prefix}-color-badge-static-purple-bg);
+  }
+}
+
+.indicator.dot-bg.quite{
+  background-color: transparent;  
+}

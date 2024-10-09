@@ -1,0 +1,99 @@
+:root {
+
+  #{$prefix}-font-family-base: 
+  "pretendard", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", 
+  "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  #{$prefix}-font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  #{$prefix}-line-height-base: 1.6em;
+  #{$prefix}-letter-spacing-base: -0.015em;
+
+  /* Font weight ---------*/
+  
+  #{$prefix}-font-weight-regular: 400;
+  #{$prefix}-font-weight-medium: 500;
+  #{$prefix}-font-weight-bold: 700;
+
+  /* line Height --------*/
+
+  #{$prefix}-line-height-0: 0em;
+  #{$prefix}-line-height-130: 1.3em;
+  #{$prefix}-line-height-140: 1.4em;
+  #{$prefix}-line-height-150: 1.5em;
+  #{$prefix}-line-height-170: 1.7em;
+
+  /* Type Scale ---------*/
+
+  #{$prefix}-type-scale-body-lg: 1.9rem;
+  #{$prefix}-type-scale-body-base: 1.7rem;
+  #{$prefix}-type-scale-body-sm: 1.5rem;
+  #{$prefix}-type-scale-body-xs: 1.3rem;
+  #{$prefix}-type-scale-body-xxs: 1.2rem; 
+
+  #{$prefix}-type-scale-title-xxl: 3.2rem;
+  #{$prefix}-type-scale-title-xl: 2.5rem;
+  #{$prefix}-type-scale-title-lg: 2.1rem;
+  #{$prefix}-type-scale-title-base: 1.9rem;
+  #{$prefix}-type-scale-title-sm: 1.7rem;
+  #{$prefix}-type-scale-title-xs: 1.5rem;
+
+  /* Motion  ----------*/
+
+  #{$prefix}-ease-out: cubic-bezier(0, 0, 0.40, 1);
+  #{$prefix}-ease-in-out: cubic-bezier(0.45, 0, 0.40, 1);
+
+  #{$prefix}-duration-100: 200ms;
+  #{$prefix}-duration-200: 300ms;
+  #{$prefix}-duration-300: 400ms;
+
+  /* Z index ---------*/
+
+  #{$prefix}-popover-zindex: 100;
+
+  /* Shadow ---------*/
+  #{$prefix}-shadow-sm: drop-shadow(1px 1px 6px  rgba(0,0,0,0.12));
+
+  /* Button ----------*/
+
+  #{$prefix}-button-font-size-xxs: 1.2rem;
+  #{$prefix}-button-font-size-xs: 1.3rem;
+  #{$prefix}-button-font-size-sm: 1.5rem;
+  #{$prefix}-button-font-size-regular: 1.7rem;
+  #{$prefix}-button-font-size-lg: 1.9rem;
+
+  #{$prefix}-button-radius-xxs: 6px;
+  #{$prefix}-button-radius-xs: 6px;
+  #{$prefix}-button-radius-sm: 8px;
+  #{$prefix}-button-radius-regular: 10px;
+  #{$prefix}-button-radius-lg: 10px;
+
+  #{$prefix}-button-height-xxs:24px;
+  #{$prefix}-button-height-xs:32px;
+  #{$prefix}-button-height-sm:40px;
+  #{$prefix}-button-height-regular:48px;
+  #{$prefix}-button-height-lg:56px;
+
+  /* Table  ----------*/
+  #{$prefix}-table-border-color: var(#{$prefix}-color-global-gray-30);
+
+  /* Card ----------*/
+  #{$prefix}-card-radius-xs: 8px;
+  #{$prefix}-card-radius-sm: 8px;
+  #{$prefix}-card-radius-regular: 12px;
+  #{$prefix}-card-radius-lg: 24px;
+
+  #{$prefix}-card-overlay-opacity: 30%;
+  #{$prefix}-card-overlay-top-bottom: linear-gradient(to bottom, rgba(0,0,0,0.35) 30%,rgba(0,0,0,0) 80%);
+  #{$prefix}-card-overlay-bottom-top: linear-gradient(to top, rgba(0,0,0,0.35) 30%,rgba(0,0,0,0) 80%);
+  #{$prefix}-card-overlay-left-right: linear-gradient(to right, rgba(0,0,0,0.35) 30%,rgba(0,0,0,0) 80%);
+
+  /* Modal ----------*/
+  #{$prefix}-modal-radius-sm: 8px;
+  #{$prefix}-modal-radius-regular: 12px;
+  #{$prefix}-modal-radius-lg: 16px;
+
+  #{$prefix}-modal-width-flow: calc(100% - 64px);
+  #{$prefix}-modal-width-xl: 640px;
+  #{$prefix}-modal-width-lg: 560px;
+  #{$prefix}-modal-width-regular: 480px;
+  #{$prefix}-modal-width-sm: 320px;
+}

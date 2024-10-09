@@ -1,0 +1,157 @@
+
+/* Tile list --------------*/
+
+.tile-list{
+  position: relative; width:100%; 
+  >.tile-list-inner{
+    position: inherit; width:100%; display: grid; gap:1.2rem; 
+    grid-template-columns: repeat(4, 1fr); grid-auto-rows: 1fr;
+  }
+  >.tile-list-desc{
+    width: 100%; text-align: right; line-height: 1.3em; padding: 1.2rem 0;
+    font-size:var(#{$prefix}-type-scale-body-sm);
+    color: var(#{$prefix}-color-global-gray-60);
+  }
+}
+
+/* Tile ------------------*/
+
+.tile{
+  width:100%; max-width: 240px; min-width:140px; height: auto;
+  border: 2px solid var(#{$prefix}-color-global-gray-20);
+  border-radius: 1.2rem; padding: 1.6rem; display: flex; flex-direction: column;
+  transition: border-color 0.2s, background-color 0.2s; justify-content: space-between; 
+  cursor: pointer;
+  &.selected{
+    border-color: var(#{$prefix}-color-global-gray-80);
+  }
+  &:hover{
+    background-color: var(#{$prefix}-color-global-gray-100-alpha-025);
+    border-color: var(#{$prefix}-color-global-gray-30);
+    >.tile-top{
+      >.trailing-item{
+        >.icon{
+          &.chevron{
+            >svg{
+              stroke:var(#{$prefix}-color-global-gray-80);
+            }
+          }
+        }
+      }
+    }       
+  }
+  
+  >.tile-top{
+    width: 100%; display: grid;  grid-template-columns: minmax(24px, 100%) auto;
+    align-items: start; padding-bottom: 1.2rem; min-height: 48px; 
+    >.leading-item{
+      display: inline-flex; align-items: center; align-items: start;
+      >.icon{
+        font-size: 24px; color: var(#{$prefix}-color-global-gray-80); line-height: 0.8em;
+        width:24px; height:24px;
+        >svg{
+          width:100%; height:100%; stroke:var(#{$prefix}-color-global-gray-80);
+        }
+      }
+      >.text { 
+        font-size: 1.5rem; color: var(#{$prefix}-color-global-gray-60); 
+        line-height: 1.5em; 
+      }
+      >.artwork{
+        width:48px; height:48px;
+        >img{ max-width: 100%;}
+      }
+    }
+    >.trailing-item{
+      justify-self: right; line-height: 1em;
+      >.icon{
+        font-size: 24px; color: var(#{$prefix}-color-global-gray-80); line-height: 0.8em;
+        width:24px; height:24px;
+        >svg{
+          width:100%; height:100%; stroke:var(#{$prefix}-color-global-gray-80);
+        }
+        &.chevron{
+          >svg{
+            stroke:var(#{$prefix}-color-global-gray-50);
+          }
+        }
+      }
+      >.text { 
+        font-size: 1.5rem; color: var(#{$prefix}-color-global-gray-60); 
+        line-height: 1.5em; text-align: right;
+      }
+      >.dummy{
+        display: block; width:24px; height:24px; background-color: var(#{$prefix}-color-global-gray-30); border-radius: 4px;
+      }
+    }    
+  }
+  >.tile-bottom{
+    width:100%;
+    >.card-text-block{
+      >h4{ font-size:17px; color: var(#{$prefix}-color-global-gray-80); margin-bottom: 2px;}
+      >.desc{ font-size:15px; color: var(#{$prefix}-color-global-gray-60); line-height:1.3em; }
+    }
+  }
+  
+  &.selected{
+    .tile-radio{
+      border: 2px solid var(#{$prefix}-color-global-gray-80);
+      &::after{
+        opacity: 1; transform: scale(1);
+      }
+    }
+    .tile-checkbox{
+      border-color: var(#{$prefix}-color-global-gray-80);
+      background-color: var(#{$prefix}-color-global-gray-80);
+      >svg{
+        opacity: 1;
+      }
+    }
+    &:hover{
+      background-color: var(#{$prefix}-color-global-gray-100-alpha-025);
+      border-color: var(#{$prefix}-color-global-gray-80);      
+    }
+  }  
+}
+
+.tile-radio{
+  position: relative; width:24px; height:24px; border-radius: 50%; 
+  border: 2px solid var(#{$prefix}-color-global-gray-50);
+  background-color: var(#{$prefix}-color-surface-page-bg-white);
+  &::after{
+    content: ''; display: block; position: absolute; width:16px; height:16px; border-radius: 50%;
+    margin:auto; top:0; bottom:0; left:0; right:0;
+    transition: transform 0.15s; background-color: var(#{$prefix}-color-global-gray-80);
+    opacity: 0;
+    transform: scale(0.3);
+  }
+}
+
+.tile-checkbox{
+  position: relative; width:20px; height:20px; border-radius: 0.4rem; 
+  border: 2px solid var(#{$prefix}-color-global-gray-50);
+  >svg{
+    position: absolute; margin:auto; top:0; bottom:0; left:-2px; 
+    width:20px; height:20px; transition: opacity 0.15s; opacity: 0;
+  }
+}
+
+.tile.action-tile{
+  border-color:transparent; background-color: var(#{$prefix}-color-global-gray-100-alpha-05);
+  &:hover{
+    background-color: var(#{$prefix}-color-global-gray-100-alpha-025);
+  }
+  >.tile-top{
+    display: flex; justify-content: center;
+    >.artwork{
+      width: 64px; height: 64px;
+    }
+  }
+  >.tile-bottom{
+    >.card-text-block{
+      text-align: center;
+      >h4{ font-size: 17px; }
+      >.desc{ font-size: 15px;}
+    }
+  }
+}

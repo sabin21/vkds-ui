@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'control-round';
+  font-style: normal;
+  font-weight: 400;
+  src: url("control-round.eot?76f2ec5a368d2cc2aacf05fa4d41edfc?#iefix") format("embedded-opentype"),
+url("control-round.woff2?76f2ec5a368d2cc2aacf05fa4d41edfc") format("woff2"),
+url("control-round.woff?76f2ec5a368d2cc2aacf05fa4d41edfc") format("woff");
+}
+
+.control-round, .control-icons {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.control-icons {
+  width: 1em;
+  height: 1em;
+  position: relative;
+  fill: currentColor;
+}
+
+.control-round {
+  font-family: 'control-round';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.control-arrow-down:before { content: "\f101"; }
+.control-arrow-left:before { content: "\f102"; }
+.control-arrow-long-left:before { content: "\f103"; }
+.control-arrow-long-right:before { content: "\f104"; }
+.control-arrow-right:before { content: "\f105"; }
+.control-arrow-up:before { content: "\f106"; }
+.control-chevron-down-bottom:before { content: "\f107"; }
+.control-chevron-down:before { content: "\f108"; }
+.control-chevron-left:before { content: "\f109"; }
+.control-chevron-right:before { content: "\f10a"; }
+.control-chevron-up-top:before { content: "\f10b"; }
+.control-chevron-up:before { content: "\f10c"; }
+.control-ellipsis-horizontal:before { content: "\f10d"; }
+.control-ellipsis-vertical:before { content: "\f10e"; }
+.control-minus:before { content: "\f10f"; }
+.control-plus:before { content: "\f110"; }
+.control-x:before { content: "\f111"; }
