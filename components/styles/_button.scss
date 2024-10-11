@@ -2,34 +2,43 @@
 .btn, .chip {
   display: flex; gap:0.2rem; align-items: center; justify-content: center;
   font-weight: var(#{$prefix}-font-weight-bold); 
-  padding: 1.2rem 2.2rem; height:48px; cursor: pointer; border-radius: 50px;
+  padding: 1.2rem 1.6rem; height:48px; cursor: pointer; border-radius: 50px;
   color:white; background-color: var(#{$prefix}-color-brand-primary-600);
-  border: 2px solid transparent; flex-grow: 0; flex-shrink: 0;
-  &:has(.leading-item){ padding-left: 1.6rem; }
-  &:has(.trailing-item){ padding-right: 1.6rem; }
+  border: 2px solid transparent; flex-grow: 0; flex-shrink: 0; line-height: 0.8em;
+  &:has(.leading-item){ padding-left: 1.1rem; }
+  &:has(.trailing-item){ padding-right: 1.1rem; }
   outline: 0px solid transparent;
   @include border_focus;
   >.inner-item{
     display: block; display: flex; align-items: center; justify-content: center;
-    height: 20px; width:20px;    
+    height: 20px; width:20px;  
   }
   &.xs{
-    height:32px; font-size:13px; padding: 1.2rem 1.2rem;
+    height:32px; font-size:13px; padding: 1.2rem 1.2rem; gap:0;
+    font-weight: 400;
     &:has(.leading-item){ padding-left: 0.6rem; }
     &:has(.trailing-item){ padding-right: 0.6rem; }
     >.inner-item{
-      >svg{ width:16px; height: 16px;}
+      >svg{ width:14px; height: 14px;}
     }
   }
   &.sm{
     height:40px; font-size:var(#{$prefix}-button-font-size-sm); padding: 1.2rem 1.4rem;
+    gap:0; font-weight: 700;
     &:has(.leading-item){ padding-left: 1.0rem; }
     &:has(.trailing-item){ padding-right: 1.0rem; }
+    >.inner-item{
+      >svg{ width:16px; height: 16px;}
+    }
   }
   &.lg{
     height:56px; font-size:var(#{$prefix}-button-font-size-lg); padding: 1.2rem 2rem;
-    &:has(.leading-item){ padding-left: 1.8rem; }
-    &:has(.trailing-item){ padding-right: 1.8rem; }
+    &:has(.leading-item){ padding-left: 1.4rem; }
+    &:has(.trailing-item){ padding-right: 1.4rem; }
+    >.inner-item{
+      width:24px; height: 24px;
+      >svg{ width:24px; height: 24px;}
+    }
   }
   &:hover{
     background-color: var(#{$prefix}-color-brand-primary-500);
@@ -87,9 +96,9 @@
 }
 
 .chip{
-  padding: 0.8rem 1.6rem; height:32px; font-size: 14px; line-height: 1;
+  padding: 0.8rem 1.4rem; height:32px; font-size: 14px; line-height: 1;
   background-color: var(#{$prefix}-color-global-gray-100-alpha-05); color: var(#{$prefix}-color-global-gray-70);
-  border: 2px solid transparent;
+  border: 2px solid transparent; gap:0;
   &:has(.leading-item){ padding-left: 0.8rem; }
   &:has(.trailing-item){ padding-right: 0.8rem; }
   &.selected{
@@ -101,9 +110,9 @@
     border: 2px solid transparent;
   }
   &.lg{
-    padding:1rem 1.6rem; height:40px; font-size: 16px;
-    &:has(.leading-item){ padding-left: 1.2rem; }
-    &:has(.trailing-item){ padding-right: 1.2rem; }
+    padding:1rem 1.2rem; height:40px; font-size: 16px;
+    &:has(.leading-item){ padding-left: 0.6rem; }
+    &:has(.trailing-item){ padding-right: 0.6rem; }
   }
   &.outline{
     color: var(#{$prefix}-color-global-gray-50);
@@ -177,6 +186,7 @@
       width:16px; height: 16px; 
       >svg{ width:14px; height: 14px; } 
     }
+    >svg{ width:16px; height: 16px; }
     &:has(.leading-item){
       padding-left:0.6rem;
     }

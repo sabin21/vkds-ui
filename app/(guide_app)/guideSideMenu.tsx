@@ -5,13 +5,6 @@ import { usePathname } from 'next/navigation';
 import Link from 'next/link';
 import { MenuItem } from './types/guideMenu';
 
-// interface MenuItem {
-//   id: number;
-//   title: string;
-//   url?: string;
-//   children?: MenuItem[];
-// }
-
 interface MenuProps {
   items: MenuItem[];
   level: number;

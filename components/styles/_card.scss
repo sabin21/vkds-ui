@@ -16,6 +16,28 @@
 
 /*-----------------------*/
 
+.card-text-block{
+  display: block; display: flex; flex-direction: column; word-break: keep-all;
+  >h4{ font-size: 28px; margin-bottom:1.4rem; font-weight: bold; line-height: 1.35em;}
+  >.desc{
+    padding:0; margin:0; font-size: 1.9rem; font-weight: var(#{$prefix}-font-weight-medium);
+    line-height: 1.4em;
+  }
+  >.category{
+    font-size: 19px; margin-bottom: 16px;
+  }
+  &.sm{
+    >h4{ font-size: 1.6rem; margin-bottom:0; }
+    >.desc{ font-size: 1.4rem; }
+  }
+  &.xs{
+    >h4{ font-size: 1.5rem; margin-bottom:0; }
+    >.desc{ font-size: 1.3rem; }
+  }
+}
+
+/*---------------------------*/
+
 .card-promotion{
   position: relative; width:100%; height:100%; overflow: hidden;
   border-radius: var(#{$prefix}-card-radius-regular); 
@@ -50,23 +72,45 @@
   >.card-front-layer{
     display: flex; position: absolute; width:100%; height: 100%; 
     top:0; left:0; color:white; letter-spacing: -0.03em;
-    padding: 10% 10%;
+    padding: 10% 10%; 
     &:before{
       content:''; display: block; position: absolute; width: 100%; height:100%;
       left:0; top:0;
     }    
     >.card-inner-wrap{
-      display: flex; position: relative; width: 100%; height:100%;
+      display: flex; position: relative; width: 100%; height:100%; flex-direction: column;
+      justify-content: space-between;
       >.card-text-block{
         >.category { margin-bottom: 0.4rem; }
-        >h4{ margin-bottom: 0.8rem; }
-      }         
+        >h4{ margin-bottom: 0.6rem; line-height: 1.25em; max-width: calc(100% - 50px);}
+      }
+      >.action-bar{
+        width:100%; display: flex; justify-content: space-between; align-items: center;
+      }
+      &.to-bottom{
+        justify-content: flex-end;
+      }    
+    }
+    >.btn-add-wishlist{
+      width: 32px; height:32px; position: absolute; border-radius: 50%; 
+      display: flex; justify-content: center; align-items:center; right: 1.6rem; top: 1.6rem; 
+      background-color: rgba(255,255,255,1); transition: all 0.2s;
+      >svg{
+        width:18px; height:18px; 
+        // stroke: var(#{$prefix}-color-global-gray-80);
+        >path{ fill: var(#{$prefix}-color-global-gray-80);}
+      }
+      &:hover{
+        >svg{
+          >path{ fill: var(#{$prefix}-color-brand-primary-700);}
+        }
+      }
     }    
   } 
 }
 .card-promotion.wide-big{
   >.card-front-layer{
-    padding: 5% 6% 5% 6%;
+    padding: 5%;
     >.card-inner-wrap{      
       flex-direction: column; justify-content: space-between;
       >.card-text-block{
@@ -179,3 +223,88 @@
   &.bg-12{ background-color: var(#{$prefix}-color-card-bg-12); }
 }
 
+/*----------------------*/
+
+.card-base{
+  width: 100%; display: flex; flex-direction: column; overflow: hidden;
+  border-radius: var(#{$prefix}-card-radius-regular);
+  >.card-body{
+    >a{
+      >._text-block{
+        >.title { margin: 0.4em 0 0.8em 0 ;}
+      }
+    }  
+  }
+  &.swipe-size-lg{ width: calc(100% - 32px); }
+  &.swipe-size-col2{ 
+    width: calc(50% - 32px);
+    >a{
+      >._media { border-radius: var(#{$prefix}-card-radius-sm);}
+    }
+    >.card-body{
+      width:100%; position: relative; display: flex; flex-direction: column;
+      padding: 0.8rem 0; gap:0.8rem;
+      >a{
+        >._text-block{
+          >.title { font-weight: bold; line-height: 1.3em; font-size:15px;}
+          >.desc { font-size: var(#{$prefix}-type-scale-body-xs)}
+        }
+      }
+      
+    }
+  }
+  >.card-body{
+    width:100%; position: relative; display: flex; flex-direction: column;
+    padding: 1.6rem 0; gap:0.8rem;
+    >a{
+      >._text-block{
+        >.title { font-weight: bold; line-height: 1.3em;}
+      }
+    }  
+  }
+}
+
+.card-base.outline{
+  background-color: white;
+  outline: 1.2px solid var(#{$prefix}-color-global-gray-100-alpha-10);
+  >a{
+    >._media {
+      border-radius: var(#{$prefix}-card-radius-regular) var(#{$prefix}-card-radius-regular) 0 0 ;
+    }
+  }
+  >.card-body{
+    padding: 1.6rem 2rem 1.6rem 2rem;
+  }
+}
+
+.card-base.media-middle{
+  >.card-header{
+    width:100%; display: flex; justify-content: space-between; align-items: center; 
+    padding:1.6rem 1rem 1.6rem 2rem; gap: 1.2rem;
+    >a{
+      display: block; overflow: hidden;
+      >._text-block{
+        display: block; overflow: hidden;
+        >h4{ 
+          font-size: var(#{$prefix}-type-scale-title-base); font-weight: bold;
+          overflow: hidden; width: 100%; text-overflow: ellipsis;
+          white-space: nowrap; 
+        }
+      }
+      
+    }
+    >.trailing-item{
+      display: flex; min-width: 32px; height:40px; align-items: center;
+    }  
+  }
+  >a{
+    >._media { border-radius: 0;}
+  }
+  >.card-bottom{
+    width:100%; display: flex; justify-content: space-between; align-items: center;
+    padding:0.8rem; gap: 1.2rem;
+    >button { width:100%; }
+  }
+}
+
+/*-----------------------*/

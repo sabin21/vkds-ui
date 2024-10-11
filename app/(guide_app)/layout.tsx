@@ -6,6 +6,7 @@ import { GuideMenu } from "./guideMenu";
 import "../globals.css";
 import "@/components/styles/vkds.scss";
 import "../styles/guide_doc.scss";
+import { Toaster } from "@/components/ui/toaster"
 
 const pretendard = localFont({
   src: "../../public/fonts/pretendard_gov_variable/PretendardGOVVariable.woff2",
@@ -31,6 +32,9 @@ export default function RootLayout({
 
           <nav className="left-nav-wrap">
             <div className="left-menu-wrap">
+              <div className="logo">
+                <img src="/img/logo_vkds.png" alt="" />
+              </div>
               <GuideMenu />
             </div>  
           </nav>
@@ -38,8 +42,8 @@ export default function RootLayout({
           <div className="content-wrap">
             {children}
           </div>
-
         </main>
+        <Toaster />
       </body>
     </html>
   );

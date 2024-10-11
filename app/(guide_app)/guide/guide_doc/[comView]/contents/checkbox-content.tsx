@@ -1,7 +1,8 @@
 "use client"
 
+import Link from 'next/link';
 import { CodeBlock } from 'react-code-block';
-import { Checkbox } from "@/components/ui/checkbox"
+import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
 
 export default function ComViewContent() {
@@ -30,7 +31,7 @@ const codeSample1 =
 `;
 
   return (
-    <div>
+    <div className='content-wrap'>
       <span className="view-block-title-wrap">
         <h4 className="view-block-title">기본사용예시</h4>
       </span>
@@ -39,12 +40,12 @@ const codeSample1 =
         <ul>
           <li>
             <div className="input-item-wrap">
-              <Checkbox id="terms" />
+              <Checkbox id="checkbox-item-1" />
               <Label
-                htmlFor="terms"
+                htmlFor="checkbox-item-1"
                 className="form-label-inline"
               >
-                본 사용약관에 동의합니다.
+                본 <Link className='_underline' href={""}>사용약관</Link> 에 동의합니다.
               </Label>
             </div>  
           </li>

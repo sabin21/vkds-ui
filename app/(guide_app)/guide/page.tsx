@@ -1,7 +1,6 @@
 "use client"
 
 import React, { ReactNode } from 'react';
-import Image from "next/image";
 import Link from "next/link";
 import { MenuItem } from '../types/guideMenu';
 import { GuideMenuData } from "../guideMenu";
@@ -15,7 +14,7 @@ const MenuItemComponent = ({ item, level }: MenuItemComponentProps): ReactNode =
   return (
     <li style={{ marginLeft: `${level * 20}px` }}>
       {item.url ? (
-        <Link href={item.url}>
+        <Link href={`guide/${item.url}`}>
           <img src={item.thumbSrc} alt="" />
           {item.title}
         </Link>

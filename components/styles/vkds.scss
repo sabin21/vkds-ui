@@ -12,11 +12,11 @@ $prefix:     --vk;
 @import 'partial-content.scss';
 
 @import 'accordion.scss';
+@import 'action-items-bar.scss';
 @import 'avatar.scss';
 @import 'banner.scss';
 @import 'button.scss';
 @import 'calendar.scss';
-@import 'card_common.scss';
 @import 'card.scss';
 @import 'carousel.scss';
 @import 'drawer.scss';
@@ -59,6 +59,9 @@ body{
 }
 a{
   text-decoration: none;
+  &._underline {
+    text-decoration: underline;
+  }
 }
 
 .content-wrap{

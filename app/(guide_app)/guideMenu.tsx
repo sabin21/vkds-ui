@@ -199,16 +199,16 @@ const GuideMenuData: MenuItem[] = [
           {
             id:343,
             title: "Card / Promotion",
-            headlineTitle: "Card Promotion",
+            headlineTitle: "Card / Promotion",
             url:"/guide_doc/card-promotion",
-            headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
+            headlineCopy: "프로모션 카드는 일반적인 목적으로 사용되는 카드보다 상대적으로 강조해서 보여줄 필요가 있는 컨텐츠에 사용됩니다. 예를 들어 특별한 이벤트, 행사등의 정보를 강조할때 사용합니다.",
             thumbSrc : "/com_doc/button.svg",
             contentSrc : "card-promotion-content.tsx",
           },
           {
             id:344,
             title: "Card / Message",
-            headlineTitle: "Card Message",
+            headlineTitle: "Card / Message",
             url:"/guide_doc/card-message",
             headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
             thumbSrc : "/com_doc/button.svg",
@@ -217,7 +217,7 @@ const GuideMenuData: MenuItem[] = [
           {
             id:345,
             title: "Card / List",
-            headlineTitle: "Card List",
+            headlineTitle: "Card / List",
             url:"/guide_doc/card-list",
             headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
             thumbSrc : "/com_doc/button.svg",
@@ -234,6 +234,15 @@ const GuideMenuData: MenuItem[] = [
           },
           {
             id:347,
+            title: "List Item",
+            headlineTitle: "List Item",
+            url:"/guide_doc/list-item",
+            headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
+            thumbSrc : "/com_doc/button.svg",
+            contentSrc : "list-item-content.tsx",
+          },
+          {
+            id:348,
             title: "List",
             headlineTitle: "List",
             url:"/guide_doc/list",
@@ -242,7 +251,7 @@ const GuideMenuData: MenuItem[] = [
             contentSrc : "list-content.tsx",
           },
           {
-            id:348,
+            id:349,
             title: "Section Heading",
             headlineTitle: "Section Heading",
             url:"/guide_doc/section-heading",
@@ -251,7 +260,7 @@ const GuideMenuData: MenuItem[] = [
             contentSrc : "section-heading-content.tsx",
           },
           {
-            id:349,
+            id:350,
             title: "Tile",
             headlineTitle: "Tile",
             url:"/guide_doc/tile",
@@ -441,7 +450,11 @@ const GuideMenuData: MenuItem[] = [
         ]
       },
     ] /* Components END */
-  }
+  },
+  {
+    id:4,
+    title:"Pattern"
+  },
 ];
 
 const GuideMenu = (): ReactNode => {

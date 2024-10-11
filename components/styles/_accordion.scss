@@ -15,7 +15,7 @@
       padding: 1.6rem 1rem; font-size: var(#{$prefix}-type-scale-body-base);
       font-weight: bold;
       >.icon-chevron{
-        width:20px; height:20px;
+        width:20px; height:20px; transition: transform 0.2s;
       }
       &:hover{
         text-decoration: underline;
@@ -35,13 +35,13 @@
   >.accordion-content-wrap{
     width:100%; transition: all; overflow: hidden;
     &[data-state="open"]{
-      animation: accordion-down 0.2s ease-out ;
+      transform: rotate(0deg);
     }
     &[data-state="closed"]{
-      animation: accordion-up 0.1s ease-out ;
+      transform: rotate(180deg);
     }
     >.accordion-content-inner{
-      width: 100%; padding: 1rem 1rem 2rem 1rem; 
+      width: 100%; padding: 1rem 1rem 2rem 1rem;
     }
   } 
 }
