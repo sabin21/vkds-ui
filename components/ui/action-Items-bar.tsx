@@ -3,8 +3,6 @@ import React, { ReactNode, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, FreeMode } from 'swiper/modules';
 import { ChevronDownIcon } from 'lucide-react'
-import { Chip } from '@/components/ui/chip';
-import Tile from '@/components/ui/tile/tile';
 
 import 'swiper/css';
 import 'swiper/css/free-mode';

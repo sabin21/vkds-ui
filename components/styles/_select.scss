@@ -1,20 +1,11 @@
 
 .select{
-  width:100%; max-width: 560px; height: 48px;
-  border:1px solid var(#{$prefix}-color-global-gray-40); border-radius: 6px;  
-  >[class*="-control"] {
-    display: flex; align-items: center; padding-left: 1rem;
-    border-radius: 6px; border: 1px solid transparent; height: 100%;
-    box-shadow: none;
-    &:hover{ border: 1px solid var(#{$prefix}-color-global-gray-60)}  
-     
+  width:100%; height: 48px; display: flex; align-items: center; justify-content: space-between;
+  border:1px solid var(#{$prefix}-color-global-gray-40); border-radius: 6px;
+  padding: 0.4rem 0.8rem 0.4rem 1.6rem;
+  .select-item{
+    border-radius: 6px; 
   }
-  [class*="-indicatorSeparator"]{
-      opacity: 0;
-  }
-  >[class*="-menu"]{
-    font-size:15px;
-  }  
 }
 .select-group{
   display: flex; align-items: center; justify-content: space-between;

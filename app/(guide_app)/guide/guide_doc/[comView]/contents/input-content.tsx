@@ -27,7 +27,7 @@ export default function ComViewContent() {
               </label>
               <span className="input-wrap leading-item">
                 <i className="leading-icon vk-icons vk-arrow-right_20" ></i>
-                <Input type={"email"} className={inputVariants({size:"sm", className:"input-text"})} id="exampleFormControlInput1" placeholder="이메일 주소를 입력해주세요" ></Input>
+                <Input type={"email"} className={inputVariants({inputSize:"sm", className:"input-text"})} id="exampleFormControlInput1" placeholder="이메일 주소를 입력해주세요" ></Input>
               </span>
             </div>
 
@@ -37,7 +37,7 @@ export default function ComViewContent() {
               </label>
               <span className="input-wrap leading-item">
                 <i className="leading-icon vk-icons vk-arrow-right_20" ></i>
-                <Input type={"email"} className={inputVariants({size:"default", className:"input-text"})} id="exampleFormControlInput1" placeholder="이메일 주소를 입력해주세요" ></Input>
+                <Input type={"email"} className={inputVariants({inputSize:"default", className:"input-text"})} id="exampleFormControlInput1" placeholder="이메일 주소를 입력해주세요" ></Input>
               </span>
             </div>
 
@@ -47,7 +47,7 @@ export default function ComViewContent() {
               </label>
               <span className="input-wrap leading-item">
                 <i className="leading-icon vk-icons vk-arrow-right_20" ></i>
-                <Input type={"email"} className={inputVariants({size:"default", className:"input-text"})} id="exampleFormControlInput1" placeholder="이메일 주소를 입력해주세요" ></Input>
+                <Input type={"email"} className={inputVariants({inputSize:"default", className:"input-text"})} id="exampleFormControlInput1" placeholder="이메일 주소를 입력해주세요" ></Input>
               </span>
             </div>
             

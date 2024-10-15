@@ -24,7 +24,8 @@ $prefix:     --vk;
 @import 'forms.scss';
 @import 'link.scss';
 @import 'list.scss';
-@import 'nav.scss';
+@import 'navigation-app.scss';
+@import 'navigation.scss';
 @import 'pagination.scss';
 @import 'overlay.scss';
 @import 'modal.scss';
@@ -63,6 +64,24 @@ a{
     text-decoration: underline;
   }
 }
+
+/*--------------------------*/
+
+.swiper{
+  >.swiper-pagination{
+    >.swiper-pagination-bullet{
+      background: var(#{$prefix}-color-global-gray-80);
+      margin: 0 3px !important; opacity: 0.25;
+      width:7px; height:7px;
+      &.swiper-pagination-bullet-active{
+        background: var(#{$prefix}-color-global-gray-80);
+        opacity: 1;
+      }
+    }
+  }
+}
+
+/*--------------------------*/
 
 .content-wrap{
   position: relative; width:100%; padding-bottom: 64px;

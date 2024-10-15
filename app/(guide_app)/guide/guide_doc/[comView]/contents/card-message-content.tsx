@@ -11,9 +11,9 @@ export default function ComViewContent() {
     <div className="content-col">
       <div className="block">
         <p>
-          Action Button은 반복적이고 복잡한 작업을 수행하기 위해 사용되는 버튼이므로 
-          단순한 형태와 색상으로 지나치게 시선을 끌지 않도록 디자인되었습니다. 또한 다양한 곳에 적용될 수 있도록
-          스타일과 사이즈의 Variation을 다양하게 사용합니다. 
+          메세지 카드는 다른 카드에 비해 상대적으로 주목도를 최대한 높이는 목적을 가지므로 Background에 Vivid한 Solid Color를 사용합니다.
+          Background에 사용되는 Color는 아래 컬러칩에 정의된 컬러를 사용합니다. <br />
+          카드 오른쪽 상단에 위치한 Close button은 옵션이며 카드를 닫을 필요가 있을 경우에만 사용합니다.
         </p>
       </div>
       
@@ -111,7 +111,7 @@ export default function ComViewContent() {
       </div>
     </div>
 
-    <h4>Solid Color Style</h4>
+    <h4>with Card body Case</h4>
     <div className="component-view-wrap" data-theme="light">
       <div className="inner-view">
         <div className="example-view">

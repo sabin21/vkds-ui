@@ -1,7 +1,7 @@
 
 .btn, .chip {
   display: flex; gap:0.2rem; align-items: center; justify-content: center;
-  font-weight: var(#{$prefix}-font-weight-bold); 
+  font-weight: 600 !important; 
   padding: 1.2rem 1.6rem; height:48px; cursor: pointer; border-radius: 50px;
   color:white; background-color: var(#{$prefix}-color-brand-primary-600);
   border: 2px solid transparent; flex-grow: 0; flex-shrink: 0; line-height: 0.8em;
@@ -390,7 +390,7 @@
   border: 1px solid var(#{$prefix}-color-global-gray-100-alpha-20);
   background-color: var(#{$prefix}-color-surface-page-bg-white);
   transition: all 0.2s;
-  padding: 0.2rem 1.2rem; height: 32px;
+  padding: 0.2rem 1.2rem; height: 28px;
   outline: 0px solid transparent; 
   @include border_focus;
   >.btn-close{

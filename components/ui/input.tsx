@@ -5,7 +5,7 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { cn } from "@/lib/utils"
 
 const inputVariants = cva(
-  "",
+  "_input-base",
   {
     variants: {
       variant:{
@@ -38,7 +38,7 @@ const Input = React.forwardRef<HTMLInputElement, InputProps>(
     return (
       <Comp
         type={type}
-        className={cn(inputVariants({ variant, inputSize:"default" }), className)}
+        className={cn(inputVariants({variant, inputSize:"default"}), className)}
         ref={ref}
         {...props}
       />

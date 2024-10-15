@@ -278,7 +278,8 @@ body{
   outline: 1px solid var(#{$prefix}-color-global-gray-30); min-height: 200px; 
   overflow: hidden; position: relative; background-color: var(#{$prefix}-color-surface-page-bg-white);
 }
-/* Carousel Sample ------------------*/
+
+/* Mobile Frame ------------------*/
 
 .page-mobile-wrap{
   position: relative; width:100%; height: 960px;
@@ -301,13 +302,13 @@ body{
 /* Carousel Sample ------------------*/
 
 .swiper-sample-1{
-  position: relative; line-height: 1em; width:100%; overflow: visible; height: 300px;
-  // border: 1px solid;
+  position: relative; line-height: 1em; width:100%; overflow: visible; height: auto; 
+  padding-bottom: 5rem;
   >.swiper-wrapper{
-    display: flex; width: 100%; height: 100%; 
+    display: flex; width: 100%; height: 100%; padding-bottom: 4rem;
     >.swiper-slide{
       display: flex; justify-content: center; align-items: center; 
-      width:100%; height:260px; background-color: var(#{$prefix}-color-global-gray-20);
+      width:100%; height:380px; background-color: var(#{$prefix}-color-global-gray-20);
       border-radius: 16px;
       >p{ font-size: 32px; font-weight: bold;}
     }
