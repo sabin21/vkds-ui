@@ -153,7 +153,7 @@ const GuideMenuData: MenuItem[] = [
             title: "Indicator",
             headlineTitle: "Indicator",
             url: "/guide_doc/indicator",
-            headlineCopy: "체크박스는 사용자가 여러 개의 옵션 중 한 개 이상의 값을 선택할 수 있도록 하는 경우에 사용합니다.",
+            headlineCopy: "Indicator는 현재상태를 표시하거나 짧은 텍스트 정보를 표시하는 용도로 사용합니다.",
             thumbSrc : "/com_doc/badge.svg",
             contentSrc : "indicator-content.tsx", 
           },
@@ -267,7 +267,7 @@ const GuideMenuData: MenuItem[] = [
             title: "Tile",
             headlineTitle: "Tile",
             url:"/guide_doc/tile",
-            headlineCopy: "Section Heading은 새로운 Section을 시작하고 사용자에게 화면에 콘텐츠가 어떻게 구성되어 있는지에 대한 개요를 제공합니다.",
+            headlineCopy: "Tile은 추가 컨트롤요소를 포함할 수 있는 버튼과 같은 구성 요소입니다. 타일 내부의 요소는 레이아웃에 따라 정사각형 또는 직사각형 형태안에서 정렬됩니다.",
             thumbSrc : "/com_doc/button.svg",
             contentSrc : "tile-content.tsx",
           }
@@ -420,7 +420,7 @@ const GuideMenuData: MenuItem[] = [
             title: "Segmented Control",
             headlineTitle: "Segmented Control",
             url:"/guide_doc/segmented-control",
-            headlineCopy: "Pagination은 주어진 컨텍스트 내에서 로드된 페이지 또는 다른 콘텐츠의 수를 전달합니다. 사용자에게 현재 위치를 보여주고 이전, 다음 및 마지막 페이지에 액세스할 수 있도록 합니다.",
+            headlineCopy: "Segmented Control은 2개 이상의 Segment가 모인 가로형 네비게이션 요소이며 각 Segment는 버튼의 역할을 수행합니다.",
             thumbSrc : "/com_doc/button.svg",
             contentSrc : "segmented-control-content.tsx",
           }

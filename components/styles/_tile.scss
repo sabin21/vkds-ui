@@ -88,7 +88,7 @@
   >.tile-bottom{
     width:100%;
     >.card-text-block{
-      >h4{ font-size:17px; color: var(#{$prefix}-color-global-gray-80); margin-bottom: 2px;}
+      >h4{ font-size:17px; color: var(#{$prefix}-color-global-gray-80); margin-bottom: 2px; font-weight:600;}
       >.desc{ font-size:15px; color: var(#{$prefix}-color-global-gray-60); line-height:1.3em; }
     }
   }

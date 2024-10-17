@@ -87,11 +87,15 @@ body{
 }
 .left-menu-wrap{
   width:100%;
-  >.logo{
-    width: 100%; position: relative; margin: 0 auto;
-    padding: 3rem 4rem 2.4rem 3rem;
-    >img{ max-width: 100%; }
-  }
+  
+    >.logo{
+      display: block;
+      width: 100%; position: relative; margin: 0 auto;
+      padding: 3rem 4rem 2.4rem 3rem;
+      >img{ max-width: 100%; }
+    }
+  
+  
   >nav{
     margin-top: 1rem; padding: 0 0 8rem 0;
     >.menu-level-1{

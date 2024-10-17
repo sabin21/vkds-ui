@@ -101,6 +101,16 @@
   border: 2px solid transparent; gap:0;
   &:has(.leading-item){ padding-left: 0.8rem; }
   &:has(.trailing-item){ padding-right: 0.8rem; }
+  >.leading-item{
+    >svg{
+      width:16px; height:16px;
+    }
+  }
+  >.trailing-item{
+    >svg{
+      width:16px; height:16px;
+    }
+  }
   &.selected{
     color:white; background-color: var(#{$prefix}-color-global-gray-80);
     border: 2px solid transparent;
@@ -113,6 +123,16 @@
     padding:1rem 1.2rem; height:40px; font-size: 16px;
     &:has(.leading-item){ padding-left: 0.6rem; }
     &:has(.trailing-item){ padding-right: 0.6rem; }
+    >.leading-item{
+      >svg{
+        width:16px; height:16px;
+      }
+    }
+    >.trailing-item{
+      >svg{
+        width:16px; height:16px;
+      }
+    }
   }
   &.outline{
     color: var(#{$prefix}-color-global-gray-50);

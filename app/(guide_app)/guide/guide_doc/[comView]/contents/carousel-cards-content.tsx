@@ -245,7 +245,7 @@ export default function ComViewContent() {
                   <p className="section-heading-desc">섹션영역 헤드라인 서브라인 텍스트</p>
                 </span>
               </div>
-              <CarouselCards spaceBetween={16} perView={'perView2'}>
+              <CarouselCards spaceBetween={8} perView={'perView2'}>
                 <div className="card-base">
                   <Link href={""}>
                     <figure className="_media aspect-3x2">
@@ -428,7 +428,7 @@ export default function ComViewContent() {
                   <p className="section-heading-desc">섹션영역 헤드라인 서브라인 텍스트</p>
                 </span>
               </div>
-              <CarouselCards spaceBetween={16} perView={'perView2'}>
+              <CarouselCards spaceBetween={8} perView={'perView2'}>
                 <div className="card-base outline">
                   <Link href={""}>
                     <figure className="_media aspect-3x2">

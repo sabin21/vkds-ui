@@ -32,9 +32,9 @@ export default function RootLayout({
 
           <nav className="left-nav-wrap">
             <div className="left-menu-wrap">
-              <div className="logo">
+              <Link className="logo" href={"/guide/"}>
                 <img src="/img/logo_vkds.png" alt="" />
-              </div>
+              </Link>
               <GuideMenu />
             </div>  
           </nav>
