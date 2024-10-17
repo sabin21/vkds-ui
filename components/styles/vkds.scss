@@ -38,6 +38,11 @@ $prefix:     --vk;
 
 // @import 'bt_layout/bt_layout.scss';
 
+@font-face{
+  font-family: "Pretendard GOV";
+  src: url("/fonts/pretendard_gov_variable/PretendardGOVVariable.woff2") format("woff2");
+  font-style: normal;
+}
 html, :host {
   font-size: 62.5%;
 }
@@ -45,7 +50,8 @@ html, :host {
 body{
   color: var(#{$prefix}-color-text-body-default);
   font-size: var(#{$prefix}-type-scale-body-base);
-  font-family: var(#{$prefix}-font-family-base);
+  font-family: "Pretendard GOV", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", 
+  "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   line-height: var(#{$prefix}-line-height-base);
   letter-spacing: var(#{$prefix}-letter-spacing-base);
   background-color: var(#{$prefix}-color-surface-page-bg-white);
