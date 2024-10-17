@@ -16,21 +16,6 @@ const GuideMenuData: MenuItem[] = [
     title: "Components",
     children: [
       {
-        id: 30,
-        title: "Test",
-        children: [
-          {
-            id:301,
-            title: "Partial",
-            url: "/guide_doc/partial",
-            headlineTitle: "Partial",
-            headlineCopy: "Action Button은 사용자가 특정 행동이나 액션을 수행하기 위해 사용됩니다. 반복적인 행동과 폼관련 액션에 사용된다는 점에서 Button과 차이점을 갖습니다.",
-            thumbSrc : "/com_doc/link.svg",
-            contentSrc : "partial-content-content.tsx"
-          }
-        ]
-      },
-      {
         id: 31,
         title: "Buttons",
         children: [
@@ -40,7 +25,7 @@ const GuideMenuData: MenuItem[] = [
             url: "/guide_doc/action-button",
             headlineTitle: "Action Button",
             headlineCopy: "Action Button은 사용자가 특정 행동이나 액션을 수행하기 위해 사용됩니다. 반복적인 행동과 폼관련 액션에 사용된다는 점에서 Button과 차이점을 갖습니다.",
-            thumbSrc : "/com_doc/link.svg",
+            thumbSrc : "/com_doc/button.svg",
             contentSrc : "action-button-content.tsx"
           },
           {
@@ -64,7 +49,7 @@ const GuideMenuData: MenuItem[] = [
             headlineTitle: "Checkbox",
             url: "/guide_doc/checkbox",
             headlineCopy: "체크박스는 사용자가 여러 개의 옵션 중 한 개 이상의 값을 선택할 수 있도록 하는 경우에 사용합니다.",
-            thumbSrc : "/com_doc/link.svg",
+            thumbSrc : "/com_doc/checkbox.svg",
             contentSrc : "checkbox-content.tsx"
           },
           {
@@ -73,7 +58,7 @@ const GuideMenuData: MenuItem[] = [
             headlineTitle: "Chip",
             url: "/guide_doc/chip",
             headlineCopy: "Chip는 사용자가 여러 항목에서 하나 또는 여러 개를 선택할 수 있도록 하는 구성요소입니다.",
-            thumbSrc : "/com_doc/link.svg",
+            thumbSrc : "/com_doc/tag.svg",
             contentSrc : "chip-content.tsx"
           },
           {
@@ -82,29 +67,38 @@ const GuideMenuData: MenuItem[] = [
             headlineTitle: "Date Picker",
             url:"/guide_doc/datepicker",
             headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
-            thumbSrc : "/com_doc/button.svg",
+            thumbSrc : "/com_doc/datetime-picker.svg",
             contentSrc : "datepicker-content.tsx",
           },
           {
             id:324,
+            title: "Forms",
+            headlineTitle: "Forms",
+            url:"/guide_doc/form",
+            headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
+            thumbSrc : "/com_doc/button.svg",
+            contentSrc : "form-content.tsx",
+          },
+          {
+            id:325,
             title: "Input",
             headlineTitle: "Input",
             url:"/guide_doc/input",
             headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
-            thumbSrc : "/com_doc/button.svg",
+            thumbSrc : "/com_doc/textfield.svg",
             contentSrc : "input-content.tsx",
           },
           {
-            id:325,
+            id:326,
             title: "Radio",
             headlineTitle: "Radio",
             url:"/guide_doc/radio-group",
             headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
-            thumbSrc : "/com_doc/button.svg",
+            thumbSrc : "/com_doc/radio.svg",
             contentSrc : "radio-group-content.tsx",
           },
           {
-            id:326,
+            id:327,
             title: "Numberic Stepper",
             headlineTitle: "Numberic Stepper",
             url:"/guide_doc/numberic-stepper",
@@ -113,16 +107,16 @@ const GuideMenuData: MenuItem[] = [
             contentSrc : "numberic-stepper-content.tsx",
           },
           {
-            id:327,
+            id:328,
             title: "Select",
             headlineTitle: "Select",
             url:"/guide_doc/select",
             headlineCopy: "Select를 사용하여 미리 준비된 값 목록을 확인하고 선택할 수 있도록 합니다.",
-            thumbSrc : "/com_doc/button.svg",
+            thumbSrc : "/com_doc/select.svg",
             contentSrc : "select-content.tsx",
           },
           {
-            id:328,
+            id:329,
             title: "Slider",
             headlineTitle: "Slider",
             url:"/guide_doc/slider",
@@ -131,7 +125,7 @@ const GuideMenuData: MenuItem[] = [
             contentSrc : "slider-content.tsx",
           },
           {
-            id:329,
+            id:330,
             title: "Switch",
             headlineTitle: "Switch",
             url:"/guide_doc/switch",
@@ -147,21 +141,21 @@ const GuideMenuData: MenuItem[] = [
         children: [
           {
             id:331,
-            title: "Indicator",
-            headlineTitle: "Indicator",
-            url: "/guide_doc/indicator",
-            headlineCopy: "체크박스는 사용자가 여러 개의 옵션 중 한 개 이상의 값을 선택할 수 있도록 하는 경우에 사용합니다.",
-            thumbSrc : "/com_doc/link.svg",
-            contentSrc : "indicator-content.tsx", 
-          },
-          {
-            id:332,
             title: "Badge",
             headlineTitle: "Badge",
             url: "/guide_doc/badge",
             headlineCopy: "체크박스는 사용자가 여러 개의 옵션 중 한 개 이상의 값을 선택할 수 있도록 하는 경우에 사용합니다.",
-            thumbSrc : "/com_doc/link.svg",
+            thumbSrc : "/com_doc/badge.svg",
             contentSrc : "badge-content.tsx", 
+          },
+          {
+            id:332,
+            title: "Indicator",
+            headlineTitle: "Indicator",
+            url: "/guide_doc/indicator",
+            headlineCopy: "체크박스는 사용자가 여러 개의 옵션 중 한 개 이상의 값을 선택할 수 있도록 하는 경우에 사용합니다.",
+            thumbSrc : "/com_doc/badge.svg",
+            contentSrc : "indicator-content.tsx", 
           },
           {
             id:333,
@@ -169,7 +163,7 @@ const GuideMenuData: MenuItem[] = [
             headlineTitle: "Tag",
             url: "/guide_doc/tag",
             headlineCopy: "Tag는 요소의 상태, 주요 속성 또는 범주를 표시하고 사용자가 콘텐츠를 필터링하기 위한 정보를 입력할 수 있는 정적이고 조치 가능한 구성 요소입니다.",
-            thumbSrc : "/com_doc/link.svg",
+            thumbSrc : "/com_doc/tag.svg",
             contentSrc : "tag-content.tsx", 
           },
         ]
@@ -193,7 +187,7 @@ const GuideMenuData: MenuItem[] = [
             headlineTitle: "Avatar",
             url:"/guide_doc/avatar",
             headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
-            thumbSrc : "/com_doc/button.svg",
+            thumbSrc : "/com_doc/avatar.svg",
             contentSrc : "avatar-content.tsx",
           },
           {
@@ -289,7 +283,7 @@ const GuideMenuData: MenuItem[] = [
             headlineTitle: "Alert Dialog",
             url: "/guide_doc/alert-dialog",
             headlineCopy: "체크박스는 사용자가 여러 개의 옵션 중 한 개 이상의 값을 선택할 수 있도록 하는 경우에 사용합니다.",
-            thumbSrc : "/com_doc/link.svg",
+            thumbSrc : "/com_doc/modal-dialog.svg",
             contentSrc : "alert-dialog-content.tsx",
           },
           {
@@ -298,7 +292,7 @@ const GuideMenuData: MenuItem[] = [
             headlineTitle: "Banner",
             url:"/guide_doc/banner",
             headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
-            thumbSrc : "/com_doc/button.svg",
+            thumbSrc : "/com_doc/banner.svg",
             contentSrc : "banner-content.tsx",
           },
           {
@@ -378,12 +372,12 @@ const GuideMenuData: MenuItem[] = [
           },
           {
             id:372,
-            title: "Bottom Navigation",
-            headlineTitle: "Bottom Navigation",
-            url:"/guide_doc/datepicker",
+            title: "Bottom Bar",
+            headlineTitle: "Bottom Bar",
+            url:"/guide_doc/bottom-bar",
             headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
             thumbSrc : "/com_doc/button.svg",
-            contentSrc : "datepicker.tsx",
+            contentSrc : "bottom-bar-content.tsx",
           },
           {
             id:373,

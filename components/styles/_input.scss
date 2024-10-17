@@ -17,15 +17,26 @@ input[type='number'] {
       color: var(#{$prefix}-color-global-gray-50); letter-spacing: 0;
       font-size: var(#{$prefix}-type-scale-body-xs);
     }
+    >.text-error{
+      width:100%; font-size: var(#{$prefix}-type-scale-body-xs); padding-top: 1.2rem;
+      color: var(#{$prefix}-color-brand-primary-600);
+    }
   }
   .form-label{
-    display: block; width: 100%;
+    display: block; 
     color: var(#{$prefix}-color-text-body-default);
     font-size: var(#{$prefix}-type-scale-body-base);
     font-weight: var(#{$prefix}-font-weight-bold);
     margin-bottom: 1.2rem;
     >sup{
       font-size: 17px; color:var(#{$prefix}-color-global-red-700);
+    }
+    &.form-label-inline{
+      display: inline-block; font-weight: 400; font-size: var(#{$prefix}-type-scale-body-sm);
+      padding:0 0; margin-bottom:0; line-height: 1em;
+      >a{
+        color: var(#{$prefix}-color-brand-primary-600);
+      }
     }
   }
 }
@@ -49,7 +60,7 @@ input[type='number'] {
 }
 
 .input-text{
-  display: block; padding: 1rem 1.6rem; height:48px;  margin:0;
+  width:100%; display: block; padding: 1rem 1.6rem; height:48px;  margin:0;
   background-color: var(#{$prefix}-color-inputs-bg-default);
   border:1px solid var(#{$prefix}-color-inputs-textfield-border-default);
   border-radius: var(#{$prefix}-inputs-textfield-radius);

@@ -348,6 +348,31 @@ export default function ComViewContent() {
         </div>
       </div>
 
+      <h4>Background</h4>
+      <div className="component-view-wrap bg-gray-light">
+        <div className="inner-view">
+          
+          <Link className="card-background aspect-4x4 overlay-bottom-top" href={""} style={{width:"358px"}}>
+            <img src="/img/sample/card_2_4x4.png" alt="" />
+            <div className="card-front-layer to-bottom">
+              <div className="_text-block lg">
+                <h4 className="title">법곡지 계곡</h4>
+                <p className="desc">Action Button은 반복적이고 복잡한 작업을 수행하기 위해 사용되는 버튼이므로 텍스트 길이에 대한 문제를 해결하기위한 </p>
+              </div>
+
+              <div className="top-leading-item">
+                <div className="indicator white sm">강원도</div>
+                <div className="indicator white sm">강원도</div>
+              </div>
+
+              <div className="top-right-icon"></div>
+            </div>
+          
+          </Link>
+
+        </div>
+      </div>
+
     </div>
 
     </div>

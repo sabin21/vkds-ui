@@ -1,8 +1,8 @@
-import React, { ReactNode, useState } from 'react';
+import React, { ReactNode } from 'react';
 import { cva, type VariantProps } from "class-variance-authority"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, FreeMode, Pagination } from 'swiper/modules';
-import { ChevronDownIcon } from 'lucide-react'
+
 import { cn } from "@/lib/utils"
 
 import 'swiper/css';

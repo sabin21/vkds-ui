@@ -1,6 +1,7 @@
 "use client"
 
 import Image from 'next/image'
+import Link from 'next/link'
 import { Button } from '@/components/ui/button';
 import { ChevronRightIcon, HeartIcon } from 'lucide-react';
 import FavoriteIcon from '@mui/icons-material/Favorite';
@@ -21,7 +22,7 @@ export default function ComViewContent() {
 
       <span className="flex flex-row gap-16 mb-24">
 
-        <article className="card-promotion ratio-3x4 overlay-top-bottom">
+        <Link className="card-promotion aspect-3x4 overlay-top-bottom" href={""}  style={{width:"360px"}}>
           <img src="/sample_image/sample_2.png" alt="" />
           <span className="card-front-layer">
             <span className="card-inner-wrap">
@@ -42,9 +43,9 @@ export default function ComViewContent() {
               <FavoriteIcon />
             </button>
           </span>
-        </article>
+        </Link>
 
-        <article className="card-promotion ratio-3x4 overlay-top-bottom">
+        <Link className="card-promotion aspect-3x4 overlay-top-bottom" href={""} style={{width:"360px"}}>
           <img src="/sample_image/sample_1.jpg" alt="" />
           <span className="card-front-layer">
             <span className="card-inner-wrap">
@@ -65,7 +66,7 @@ export default function ComViewContent() {
               <FavoriteIcon />
             </button>
           </span>
-        </article>
+        </Link>
         
       </span>
 
@@ -73,28 +74,29 @@ export default function ComViewContent() {
       <h4 className="view-block-title">Wide - Full width</h4>
       <span className="flex w-full mb-24">
 
-        <article className="card-promotion ratio-5x2 wide-big overlay-left-right">
-          <img src="/sample_image/sample_1.jpg" alt="" />
-          <span className="card-front-layer">
-            <span className="card-inner-wrap">
-              <span className="card-text-block">
-                <span className='category'>여행지</span>
-                <h4>법수치계곡</h4>
-                <span className='desc'>기암절벽과 투명한 계곡물이 절경인 계곡 여행지</span>
+        
+          <Link className="card-promotion aspect-5x2 wide-big overlay-left-right" href={""}>
+            <img src="/sample_image/sample_1.jpg" alt="" />
+            <span className="card-front-layer">
+              <span className="card-inner-wrap">
+                <span className="card-text-block">
+                  <span className='category'>여행지</span>
+                  <h4>법수치계곡</h4>
+                  <span className='desc'>기암절벽과 투명한 계곡물이 절경인 계곡 여행지</span>
+                </span>
+                <Button variant={'staticWhite'} >
+                  <span>바로가기</span>
+                  <span className="inner-item trailing-item">
+                      <ChevronRightIcon />
+                    </span>
+                </Button>
               </span>
-              <Button variant={'staticWhite'} >
-                <span>바로가기</span>
-                <span className="inner-item trailing-item">
-                    <ChevronRightIcon />
-                  </span>
-              </Button>
+              <button className="btn-add-wishlist">
+                <FavoriteIcon />
+              </button>
             </span>
-            <button className="btn-add-wishlist">
-              <FavoriteIcon />
-            </button>
-          </span>
-        </article>
-
+          </Link>
+        
       </span>
     </div>
 

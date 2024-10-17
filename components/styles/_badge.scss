@@ -79,7 +79,7 @@
 }
 
 .indicator {
-  display: flex; align-items: center; font-weight: var(#{$prefix}-text-weight-medium);
+  display: flex; align-items: center; font-weight: var(#{$prefix}-font-weight-semibold);
   font-size: 1.5rem; line-height: 0.9em; padding: 0.4rem 0.4rem 0.3rem 0.4rem; border-radius: 3px;
   background-color: var(#{$prefix}-color-badge-light-gray-bg);
   // border: 1px solid var(#{$prefix}-color-badge-light-gray-border);
@@ -105,6 +105,9 @@
     background-color: var(#{$prefix}-color-badge-light-purple-bg);
     // border: 1px solid var(#{$prefix}-color-badge-light-purple-border);
     color: var(#{$prefix}-color-global-purple-800);
+  }
+  &.white{
+    background-color: white;
   }
 }
 

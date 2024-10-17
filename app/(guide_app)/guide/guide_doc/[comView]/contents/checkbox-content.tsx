@@ -43,7 +43,7 @@ const codeSample1 =
               <Checkbox id="checkbox-item-1" />
               <Label
                 htmlFor="checkbox-item-1"
-                className="form-label-inline"
+                className="form-label inline"
               >
                 본 <Link className='_underline' href={""}>사용약관</Link> 에 동의합니다.
               </Label>

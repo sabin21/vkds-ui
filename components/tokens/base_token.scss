@@ -11,6 +11,7 @@
   
   #{$prefix}-font-weight-regular: 400;
   #{$prefix}-font-weight-medium: 500;
+  #{$prefix}-font-weight-semibold: 600;
   #{$prefix}-font-weight-bold: 700;
 
   /* line Height --------*/
@@ -50,6 +51,7 @@
   #{$prefix}-popover-zindex: 100;
 
   /* Shadow ---------*/
+
   #{$prefix}-shadow-sm: drop-shadow(1px 1px 6px  rgba(0,0,0,0.12));
 
   /* Button ----------*/
@@ -60,11 +62,11 @@
   #{$prefix}-button-font-size-regular: 1.7rem;
   #{$prefix}-button-font-size-lg: 1.9rem;
 
-  #{$prefix}-button-radius-xxs: 6px;
-  #{$prefix}-button-radius-xs: 6px;
-  #{$prefix}-button-radius-sm: 8px;
-  #{$prefix}-button-radius-regular: 10px;
-  #{$prefix}-button-radius-lg: 10px;
+  #{$prefix}-button-radius-xxs: 4px;
+  #{$prefix}-button-radius-xs: 4px;
+  #{$prefix}-button-radius-sm: 6px;
+  #{$prefix}-button-radius-regular: 8px;
+  #{$prefix}-button-radius-lg: 8px;
 
   #{$prefix}-button-height-xxs:24px;
   #{$prefix}-button-height-xs:32px;
@@ -82,9 +84,9 @@
   #{$prefix}-card-radius-lg: 24px;
 
   #{$prefix}-card-overlay-opacity: 30%;
-  #{$prefix}-card-overlay-top-bottom: linear-gradient(to bottom, rgba(0,0,0,0.35) 30%,rgba(0,0,0,0) 80%);
-  #{$prefix}-card-overlay-bottom-top: linear-gradient(to top, rgba(0,0,0,0.35) 30%,rgba(0,0,0,0) 80%);
-  #{$prefix}-card-overlay-left-right: linear-gradient(to right, rgba(0,0,0,0.35) 30%,rgba(0,0,0,0) 80%);
+  #{$prefix}-card-overlay-top-bottom: linear-gradient(to bottom, rgba(0,0,0,0.5) 30%,rgba(0,0,0,0) 80%);
+  #{$prefix}-card-overlay-bottom-top: linear-gradient(to top, rgba(0,0,0,0.5) 30%,rgba(0,0,0,0) 80%);
+  #{$prefix}-card-overlay-left-right: linear-gradient(to right, rgba(0,0,0,0.5) 30%,rgba(0,0,0,0) 80%);
 
   /* Modal ----------*/
   #{$prefix}-modal-radius-sm: 8px;

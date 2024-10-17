@@ -102,11 +102,11 @@
   &:has(.leading-item){ padding-left: 0.8rem; }
   &:has(.trailing-item){ padding-right: 0.8rem; }
   &.selected{
-    color:white; background-color: var(#{$prefix}-color-brand-primary-600);
+    color:white; background-color: var(#{$prefix}-color-global-gray-80);
     border: 2px solid transparent;
   }
   &:hover{
-    color:white; background-color: var(#{$prefix}-color-brand-primary-300);
+    color:white; background-color: var(#{$prefix}-color-global-gray-70);
     border: 2px solid transparent;
   }
   &.lg{
@@ -125,6 +125,8 @@
     }
   }
 }
+
+
 /* Action Button ----------------- */
 
 .action-btn {
