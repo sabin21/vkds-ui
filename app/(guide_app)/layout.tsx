@@ -27,7 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko-KR" data-theme=" ">
-      <body className={`antialiased`} >
+      <body className={`${pretendard.variable} antialiased`} >
         <main className="guide-main">
 
           <nav className="left-nav-wrap">
