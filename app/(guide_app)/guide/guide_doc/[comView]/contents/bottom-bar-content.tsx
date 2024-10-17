@@ -1,7 +1,5 @@
 "use client"
 
-import PreviewNavigationHeader1 from '@/components/app/navigation_header';
-
 export default function ComViewContent() {
   
   return (

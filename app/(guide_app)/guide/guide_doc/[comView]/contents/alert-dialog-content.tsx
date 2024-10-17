@@ -1,7 +1,7 @@
 "use client"
 
 import { CodeBlock } from 'react-code-block';
-import { ActionButton, buttonVariants } from "@/components/ui/action-button"
+import { ActionButton } from "@/components/ui/action-button"
 
 import {
   AlertDialog,

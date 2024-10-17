@@ -1,11 +1,8 @@
 "use client"
 
 import React, { useState } from 'react';
-import Image from 'next/image'
+// import Image from 'next/image'
 import Link from 'next/link'
-import { Checkbox } from '@/components/ui/checkbox';
-import { Switch } from '@/components/ui/switch';
-import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 import { ActionButton } from "@/components/ui/action-button";
 import { Tag } from "@/components/ui/tag";
 import RatingStar from '@/components/ui/rating-star';

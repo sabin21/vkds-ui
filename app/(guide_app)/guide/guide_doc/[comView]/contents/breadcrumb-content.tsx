@@ -1,7 +1,5 @@
 "use client"
 
-import { Chip } from "@/components/ui/chip";
-import ActionItemsBar from "@/components/ui/action-Items-bar";
 import {
   Breadcrumb,
   BreadcrumbEllipsis,

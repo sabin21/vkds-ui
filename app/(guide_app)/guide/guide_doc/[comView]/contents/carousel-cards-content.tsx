@@ -2,9 +2,9 @@
 
 import React, { useRef, useState } from 'react';
 import Link from 'next/link'
-import { Button } from "@/components/ui/button";
+// import { Button } from "@/components/ui/button";
 import Divider from '@/components/ui/divider';
-import { BrandsNaverN } from '@/components/icons/icons_brands';
+// import { BrandsNaverN } from '@/components/icons/icons_brands';
 import { XIcon, ChevronRight, HouseIcon, MapIcon, MessageCircleCodeIcon, ShareIcon, EllipsisVerticalIcon, HomeIcon } from "lucide-react";
 import CarouselCards from '@/components/ui/carousel-cards';
 

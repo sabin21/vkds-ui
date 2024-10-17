@@ -1,9 +1,5 @@
 "use client"
 
-import Image from 'next/image'
-import { Checkbox } from '@/components/ui/checkbox';
-import { Switch } from '@/components/ui/switch';
-import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
 
 export default function ComViewContent() {
     
