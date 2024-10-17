@@ -1,6 +1,6 @@
 "use client"
 
-import Image from 'next/image'
+// import Image from 'next/image'
 import { Checkbox } from '@/components/ui/checkbox';
 import { Switch } from '@/components/ui/switch';
 import TileGroup from '@/components/ui/tile/tileGroup';

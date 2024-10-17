@@ -5,7 +5,7 @@ import { format } from "date-fns"
 import { Calendar as CalendarIcon } from "lucide-react"
  
 import { cn } from "@/lib/utils"
-import { ActionButton, buttonVariants } from "@/components/ui/action-button"
+import { ActionButton } from "@/components/ui/action-button"
 import { Calendar } from "@/components/ui/calendar"
 import {
   Popover,
@@ -30,7 +30,7 @@ export default function ComViewContent() {
       <div className="inner-view" style={{backgroundColor:"var(#{$prefix}-color-global-gray-5"}}>
         <div className="example-view" style={{height: "400px", alignItems:"start", paddingTop:"60px"}}>
 
-        <Popover>
+        {/* <Popover>
           <PopoverTrigger asChild>
             <ActionButton
               variant={"default"}
@@ -52,7 +52,7 @@ export default function ComViewContent() {
               initialFocus
             />
           </PopoverContent>
-        </Popover>
+        </Popover> */}
 
         </div>  
       </div>

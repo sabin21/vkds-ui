@@ -1,7 +1,7 @@
 "use client"
 
 import { CodeBlock } from 'react-code-block';
-import { Label } from "@/components/ui/label";
+// import { Label } from "@/components/ui/label";
 import { ActionButton } from '@/components/ui/action-button';
 import {
   Tooltip,

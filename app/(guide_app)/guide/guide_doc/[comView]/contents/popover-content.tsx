@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { ActionButton } from "@/components/ui/action-button";
-import { MixerHorizontalIcon, Cross2Icon } from '@radix-ui/react-icons';
+// import { MixerHorizontalIcon, Cross2Icon } from '@radix-ui/react-icons';
 import * as Popover from '@radix-ui/react-popover';
 
 export default function ComViewContent() {
