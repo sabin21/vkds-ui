@@ -429,34 +429,52 @@ const GuideMenuData: MenuItem[] = [
       {
         id: 38,
         title: "Data and tables",
-        children: [
-          {
-            id:331,
-            title: "Checkbox",
-            headlineTitle: "Checkbox",
-            url: "/guide_doc/checkbox",
-            headlineCopy: "체크박스는 사용자가 여러 개의 옵션 중 한 개 이상의 값을 선택할 수 있도록 하는 경우에 사용합니다.",
-            thumbSrc : "/com_doc/link.svg",
-            contentSrc : "./contents/checkbox-content.tsx",
-            linkVkds : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html",
-            linkShadcn : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
-          },
-          {
-            id:332,
-            title: "Date Picker",
-            headlineTitle: "Date Picker",
-            url:"/guide_doc/datepicker",
-            headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
-            thumbSrc : "/com_doc/button.svg",
-            contentSrc : "./contents/datepicker.tsx",
-          }
-        ]
+        // children: [
+        //   {
+        //     id:331,
+        //     title: "Checkbox",
+        //     headlineTitle: "Checkbox",
+        //     url: "/guide_doc/checkbox",
+        //     headlineCopy: "체크박스는 사용자가 여러 개의 옵션 중 한 개 이상의 값을 선택할 수 있도록 하는 경우에 사용합니다.",
+        //     thumbSrc : "/com_doc/link.svg",
+        //     contentSrc : "./contents/checkbox-content.tsx",
+        //     linkVkds : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html",
+        //     linkShadcn : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+        //   },
+        //   {
+        //     id:332,
+        //     title: "Date Picker",
+        //     headlineTitle: "Date Picker",
+        //     url:"/guide_doc/datepicker",
+        //     headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
+        //     thumbSrc : "/com_doc/button.svg",
+        //     contentSrc : "./contents/datepicker.tsx",
+        //   }
+        // ]
       },
     ] /* Components END */
   },
   {
     id:4,
-    title:"Pattern"
+    title:"Pattern",
+    children:[
+      {
+        id:41,
+        title:"Mobile Page sample",
+        children: [
+          {
+            id:411,
+            title: "Mobile Sample 1",
+            headlineTitle: "Mobile Sample 1",
+            url:"/guide_doc/sample-page-1",
+            headlineCopy: "ui 컴포넌트 사용예시 및 테스트 용",
+            thumbSrc : "/com_doc/button.svg",
+            contentSrc : "sample-page-1.tsx",
+          }
+        ]
+      }
+    ]
+      
   },
 ];
 
