@@ -9,7 +9,6 @@ import BottomBar from "@/components/app/bottom_bar";
 import "../globals.css";
 import "@/components/styles/vkds.scss";
 import "../styles/guide_doc.scss";
-// import { Html } from "next/document";
 
 const pretendard = localFont({
   src: "../../public/fonts/pretendard_gov_variable/PretendardGOVVariable.woff2",
@@ -32,11 +31,8 @@ export default function RootLayout({
     <html>
       <body data-device="mobile" className={`${pretendard.variable} antialiased`}>
         <div className="mo-page-wrap w-full min-h-screen pt-[40px]">
-          <PreviewNavigationHeader1 />
           {children}
-          <BottomBar />
-        </div>
-        
+        </div> 
     </body>
     </html>
   );
