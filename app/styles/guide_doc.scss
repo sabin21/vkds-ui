@@ -111,9 +111,8 @@ body{
           >li{ 
             display: block; padding-left:8px; margin-top:1.2rem; width:100%;
             color:var(#{$prefix}-color-global-slate-1000);
-            >button{
-              font-weight:bold; font-size: 16px; width:100%; text-align: left;
-            }
+            font-weight:bold; font-size: 15px; width:100%; text-align: left;
+            
             >.menu-level-3{
               display: block; font-size: 15px; color: var(#{$prefix}-color-global-gray-60);
               font-weight: normal; padding: 0.8rem 0;
@@ -181,7 +180,7 @@ body{
   border-bottom: 1px solid var(#{$prefix}-color-global-gray-20); 
   >.block-head-title{
     >h2{
-      font-size: 4rem; font-weight: bold;
+      font-size: 4.4rem; font-weight: bold;
     }
     >.headline-copy{
       display: block; margin:2rem 0 3.2rem 0; width: 100%; font-size: 2rem; font-weight: 500;
@@ -361,4 +360,30 @@ body{
     }
   }
 }
+
+.guide-title-level1{
+  width:100%; margin-bottom:40px; margin-top: 120px;
+  >.title{
+    font-size: 32px; font-weight: bold; margin-bottom: 16px; color:var(#{$prefix}-color-global-gray-90);
+  }
+  >p{
+    width:100%; line-height: 1.5em; font-size: 19px; font-weight: 500;
+  }
+  &:first-child{ margin-top: 64px;}
+}
+.guide-title-level2{
+  width:100%; margin-top: 68px;
+  >.title{
+    font-size: 24px; font-weight: bold; margin-bottom: 8px; color:var(#{$prefix}-color-global-gray-90);
+  }
+  >p{
+    width:100%; line-height: 1.5em; font-size: 17px; font-weight: 500;
+  }
+}
+.full-img{
+  max-width: 100%; margin:16px 0;
+}
+.block-spacing-40{ display: block; height:40px; }
+.block-spacing-64{ display: block; height:64px; }
+.block-spacing-80{ display: block; height:80px; }
 

@@ -9,7 +9,17 @@ export default function ComViewContent() {
   return (
     <div className="content-wrap">
 
+      
+
     <span className="section-block level2">
+
+    <div className="guide-title-level1">
+        <h4 className="title">Anatomy</h4>
+      </div>
+
+      <img src="/img/guide_doc/chips_anatomy.png" className="full-img" />
+
+      <span className="block h-24"></span>
       <h4 className="view-block-title">Standard Style</h4>
     
     <div className="component-view-wrap">

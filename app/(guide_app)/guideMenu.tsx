@@ -9,7 +9,45 @@ const GuideMenuData: MenuItem[] = [
   },
   {
     id:2,
-    title:"Foundation"
+    title:"Foundation",
+    children: [
+      {
+        id:21,
+        title:"Color",
+        url: "/guide_doc/foundation-color",
+        headlineTitle: "Colors",
+        headlineCopy: "Colors는 Brand의 Identity를 규정하는 핵심요소이며 맥락에 대한 정보를 제공합니다.",
+        thumbSrc : "/com_doc/button.svg",
+        contentSrc : "foundation-color-content.tsx"
+      },
+      {
+        id:22,
+        title:"Typography",
+        url: "/guide_doc/foundation-typography",
+        headlineTitle: "Typography",
+        headlineCopy: "서체는 정보를 전달하고 일관된 경험을 제공하는 중요한 요소다. 글꼴, 크기, 두께, 계층 등을 정의하여 텍스트의 내용과 중요도를 시각적으로 표현하고 다양한 화면에서 동일하게 경험할 수 있도록 한다.",
+        thumbSrc : "/com_doc/button.svg",
+        contentSrc : "foundation-typography-content.tsx"
+      },
+      {
+        id:23,
+        title:"Icons",
+        url: "/guide_doc/foundation-icons",
+        headlineTitle: "Icons",
+        headlineCopy: "시스템 아이콘은 간단한 동작, 기능을 나타내거나 사물의 상징을 기호로 만든 시각 언어로 한정된 공간에서 효율적으로 정보를 전달하는 역할을 한다.",
+        thumbSrc : "/com_doc/button.svg",
+        contentSrc : "foundation-icons-content.tsx"
+      },
+      {
+        id:24,
+        title:"Layout",
+        url: "/guide_doc/foundation-layout",
+        headlineTitle: "Layout",
+        headlineCopy: "전체 App의 레이아웃 일관성을 위해 Column gird와 4px Spacing rule을 적용합니다.",
+        thumbSrc : "/com_doc/button.svg",
+        contentSrc : "foundation-layout-content.tsx"
+      }
+    ]
   },
   {
     id:3,
@@ -54,10 +92,10 @@ const GuideMenuData: MenuItem[] = [
           },
           {
             id:322,
-            title: "Chip",
+            title: "Chips",
             headlineTitle: "Chip",
             url: "/guide_doc/chip",
-            headlineCopy: "Chip는 사용자가 여러 항목에서 하나 또는 여러 개를 선택할 수 있도록 하는 구성요소입니다.",
+            headlineCopy: "칩(Chips)은 사용자로 하여금 정보, 선택, 콘텐츠의 필터링, 그리고 특정 액션을 유도합니다. ",
             thumbSrc : "/com_doc/tag.svg",
             contentSrc : "chip-content.tsx"
           },
