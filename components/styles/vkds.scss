@@ -37,8 +37,6 @@ $prefix:     --vk;
 @import 'input.scss';
 @import 'table.scss';
 
-// @import 'bt_layout/bt_layout.scss';
-
 @font-face{
   font-family: "Pretendard GOV";
   src: url("/fonts/pretendard_gov_variable/PretendardGOVVariable.woff2") format("woff2");
@@ -56,14 +54,7 @@ body{
   line-height: var(#{$prefix}-line-height-base);
   letter-spacing: var(#{$prefix}-letter-spacing-base);
   background-color: var(#{$prefix}-color-surface-page-bg-white);
-  &[data-device="mobile"]{
-    &::-webkit-scrollbar{
-      width: 1px; background-color: var(#{$prefix}-color-global-gray-10);
-    }
-    &::-webkit-scrollbar-thumb {
-      background-color: var(#{$prefix}-color-global-gray-20);
-    }
-  }
+  
 }
 a{
   text-decoration: none;
@@ -71,6 +62,17 @@ a{
     text-decoration: underline;
   }
 }
+
+.scrollbar-mo{
+  scrollbar-width: none; 
+  &::-webkit-scrollbar{
+    width: 1px; background-color: var(#{$prefix}-color-global-gray-10);
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: var(#{$prefix}-color-global-gray-20);
+  }
+}
+
 
 /*--------------------------*/
 

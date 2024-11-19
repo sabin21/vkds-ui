@@ -29,8 +29,9 @@ export default function RootLayout({
 }>) {
   return (
     <html>
-      <body data-device="mobile" className={`${pretendard.variable} antialiased`}>
-        <div className="mo-page-wrap w-full min-h-screen pt-[40px]">
+      <body className={`${pretendard.variable} antialiased`}>
+        
+        <div className="w-full min-h-screen">
           {children}
         </div> 
     </body>

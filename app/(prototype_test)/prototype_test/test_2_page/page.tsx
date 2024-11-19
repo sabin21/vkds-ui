@@ -12,7 +12,7 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import { ClassNames } from '@emotion/react';
 
-export default function PageTest1() {
+export default function PageTest2() {
   
   return (
     
@@ -33,7 +33,7 @@ export default function PageTest1() {
           <div className="app-menu-wrap">
             <img src="/img/prototype/app_menu_a.png" alt="" />
           </div>
-
+          ddsadfksdfkk
           <Swiper
             pagination={true} modules={[Pagination]} 
             slidesPerView={1.2} 
