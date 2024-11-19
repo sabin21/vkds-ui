@@ -30,7 +30,6 @@ export default function RootLayout({
   return (
     <html>
       <body className={`${pretendard.variable} antialiased`}>
-        
         <div className="w-full min-h-screen">
           {children}
         </div> 

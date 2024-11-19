@@ -6,7 +6,7 @@ export default function PageTest1() {
     <div className='content-wrap'>
       <div className='page-mobile-wrap'>
         <div className='device-mobile-wrap'>
-          <iframe src="/prototype_test/test_2_page/" className="mobile-iframe">
+          <iframe src="/prototype_test/test_1_page/" className="mobile-iframe">
           </iframe>
         </div>
       </div>  
