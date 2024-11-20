@@ -17,7 +17,7 @@ export default function TestMain() {
         <div className='block-title'>
           <h2>대구석 디자인 시안</h2>
           <p>
-            하단네비게이션의 [메뉴] 버튼을 클릭하면 메뉴화면이 열립니다.
+            하단 내비게이션의 [메뉴] 버튼을 클릭하면 메뉴화면이 열립니다.
           </p>
         </div>
         <div className="inner-wrap">
