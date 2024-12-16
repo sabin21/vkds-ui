@@ -20,7 +20,6 @@ const MenuItemComponent = ({ item, level }: MenuItemComponentProps): ReactNode =
         "level-1": level === 1,
         "level-2": level === 2,
         "level-3": level === 3,
-        // 필요한 만큼 레벨을 추가할 수 있습니다.
       }
     )}>
       {item.url ? (
@@ -44,12 +43,17 @@ const MenuItemComponent = ({ item, level }: MenuItemComponentProps): ReactNode =
 
 const ComponentsView = (): ReactNode => {
   return (
-    <div className="guide-menu-container">
-      <ul className="guide-menu">
-        {GuideMenuData.map((item) => (
-          <MenuItemComponent key={item.id} item={item} level={0} />
-        ))}
-      </ul>
+    // <div className="guide-menu-container">
+    //   <ul className="guide-menu">
+    //     {GuideMenuData.map((item) => (
+    //       <MenuItemComponent key={item.id} item={item} level={0} />
+    //     ))}
+    //   </ul>
+    // </div>
+    <div className="guide-main-wrap">
+      <div className="block-wrap">
+        
+      </div>
     </div>
   );
 };

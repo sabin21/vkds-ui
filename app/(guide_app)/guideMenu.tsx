@@ -4,8 +4,12 @@ import { MenuItem } from './types/guideMenu';
 
 const GuideMenuData: MenuItem[] = [
   {
-    id:1,
-    title:"Introduction"
+    id:11,
+    title:"Introduction",
+    url: "/guide_doc/intro-main",
+    headlineTitle: "대한민국 구석구석 Design System",
+    headlineCopy: "대한민국 구석구석 Design System (이하 VKDS)는 디지털정부 Design System에서 규정된 일반원칙과 스타일을 기반으로 대한민국 구석구석의 특성을 반영하고 관광 마케팅 필요를 충족시킬 수 있도록 수정되었습니다.",
+    contentSrc : "intro-main-content.tsx"
   },
   {
     id:2,
@@ -62,7 +66,7 @@ const GuideMenuData: MenuItem[] = [
             title: "Action Button",
             url: "/guide_doc/action-button",
             headlineTitle: "Action Button",
-            headlineCopy: "Action Button은 사용자가 특정 행동이나 액션을 수행하기 위해 사용됩니다. 반복적인 행동과 폼관련 액션에 사용된다는 점에서 Button과 차이점을 갖습니다.",
+            headlineCopy: "Action Button은 사용자가 특정 행동이나 액션을 수행하기 위해 사용됩니다. Card 컴포넌트, Form 등 요소 안에서 사용자액션을 위해 사용된다는 점에서 Button과 차이점을 갖습니다.",
             thumbSrc : "/com_doc/button.svg",
             contentSrc : "action-button-content.tsx"
           },
@@ -95,7 +99,7 @@ const GuideMenuData: MenuItem[] = [
             title: "Chips",
             headlineTitle: "Chip",
             url: "/guide_doc/chip",
-            headlineCopy: "칩(Chips)은 사용자로 하여금 정보, 선택, 콘텐츠의 필터링, 그리고 특정 액션을 유도합니다. ",
+            headlineCopy: "칩(Chips)은 사용자로 하여금 정보, 선택, 콘텐츠의 필터링, 그리고 특정 액션을 유도합니다.",
             thumbSrc : "/com_doc/tag.svg",
             contentSrc : "chip-content.tsx"
           },
@@ -422,7 +426,7 @@ const GuideMenuData: MenuItem[] = [
             title: "Link",
             headlineTitle: "Link",
             url:"/guide_doc/link",
-            headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
+            headlineCopy: "링크는 다른 서비스/애플리케이션, 한 서비스 내의 다른 화면, 한 화면 내의 다른 섹션 등으로 이동하는 데 사용되는 탐색 요소입니다.",
             thumbSrc : "/com_doc/button.svg",
             contentSrc : "link-content.tsx",
           },

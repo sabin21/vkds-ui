@@ -36,6 +36,17 @@ export default function ComViewContent() {
         <h4 className="img-caption">4 Column grid</h4>
         <img src="/img/guide_doc/layout_column_4.png" className="full-img" />
 
+        <div className="guide-title-level1">
+          <h4 className="title">Column Grid / Desktop</h4>
+          <p>
+            1920픽셀 화면 너비의 모바일 기기를 기준으로, 열 그리드는 12개의 열을 포함합니다. 
+            Container의 최대 너비값은 1364px 이며 column width: 88px, gutter width: 28px를 적용합니다.
+            column과 gutter의 값은 안에 적용되는 column의 갯수에 따라 유동적으로 변화시켜 적용합니다.
+          </p>
+        </div>
+        <h4 className="img-caption">전체 컨테이너-기본 컬럼 구조</h4>
+        <img src="/img/guide_doc/layout_column_pc_1.png" className="full-img" />
+
       </div>
     </div>
   );

@@ -8,19 +8,25 @@ export default function ComViewContent() {
 
         <div className="guide-title-level1">
           <h4 className="title">Key colors</h4>
-          <p>Key colors는 Gray Color, Primary color로 구성됩니다.</p>
+          <p>
+            Key colors는 Gray Color, Primary color로 구성됩니다.<br />
+            접근성 원칙을 위해 배경색상과 Text 색상의 대비는 4.5:1 이상이 되도록 사용합니다.
+          </p>
         </div>
         
-        <div className="guide-title-level2">
+        <div className="guide-title-level2 mb-12">
           <h4 className="title">Gray color</h4>
           <p>Gray color는 전체 Text 및 UI Component 요소들에 전반적으로 적용되는 중성적인 컬러입니다. </p>
         </div>
         <img src="/img/guide_doc/color_gray.png" className="full-img" />
 
 
-        <div className="guide-title-level2">
+        <div className="guide-title-level2 mb-12">
           <h4 className="title">Primary color</h4>
-          <p>Primary Color는 대구석의 Brand Identity를 상징함과 동시에 Point Color로서 사용됩니다.</p>
+          <p>
+            Primary Color는 대구석의 Brand Identity를 상징함과 동시에 Point Color로서 사용됩니다.<br />
+            여성 사용자가 많은 여행정보 사이트라는 대구석의 특징을 반영하여 활기차며 감성적인 이미지를 전달하기 위해 Rose Pink 컬러를 Primary Color로 적용하였습니다. Rose Pink 컬러는 주목도가 높은 특성을 가지고 있으므로 Point Color로서의 역할 또한 수행합니다.
+          </p>
         </div>
         <img src="/img/guide_doc/color_primary.png" className="full-img" />
         

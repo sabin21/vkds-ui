@@ -360,6 +360,24 @@ body{
     }
   }
 }
+.guide-main-wrap{
+  width:100%; position: relative;
+  >.block-wrap{
+    width:100%; position: relative;
+
+  }
+  .guide-list-wrap{
+    >li{
+      width:100%; padding:8px 0;
+      >.guide-list-title{
+        width:100%; display: block; font-weight: bold;
+      }
+      >.guide-list-body{
+        width:100%; display: block; line-height: 1.5em;
+      }
+    }
+  }
+}
 
 .guide-title-level1{
   width:100%; margin-bottom:40px; margin-top: 120px;
