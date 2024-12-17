@@ -103,33 +103,33 @@ const GuideMenuData: MenuItem[] = [
             thumbSrc : "/com_doc/tag.svg",
             contentSrc : "chip-content.tsx"
           },
-          {
-            id:323,
-            title: "Date Picker",
-            headlineTitle: "Date Picker",
-            url:"/guide_doc/datepicker",
-            headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
-            thumbSrc : "/com_doc/datetime-picker.svg",
-            contentSrc : "datepicker-content.tsx",
-          },
-          {
-            id:324,
-            title: "Forms",
-            headlineTitle: "Forms",
-            url:"/guide_doc/form",
-            headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
-            thumbSrc : "/com_doc/button.svg",
-            contentSrc : "form-content.tsx",
-          },
-          {
-            id:325,
-            title: "Input",
-            headlineTitle: "Input",
-            url:"/guide_doc/input",
-            headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
-            thumbSrc : "/com_doc/textfield.svg",
-            contentSrc : "input-content.tsx",
-          },
+          // {
+          //   id:323,
+          //   title: "Date Picker",
+          //   headlineTitle: "Date Picker",
+          //   url:"/guide_doc/datepicker",
+          //   headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
+          //   thumbSrc : "/com_doc/datetime-picker.svg",
+          //   contentSrc : "datepicker-content.tsx",
+          // },
+          // {
+          //   id:324,
+          //   title: "Forms",
+          //   headlineTitle: "Forms",
+          //   url:"/guide_doc/form",
+          //   headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
+          //   thumbSrc : "/com_doc/button.svg",
+          //   contentSrc : "form-content.tsx",
+          // },
+          // {
+          //   id:325,
+          //   title: "Input",
+          //   headlineTitle: "Input",
+          //   url:"/guide_doc/input",
+          //   headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
+          //   thumbSrc : "/com_doc/textfield.svg",
+          //   contentSrc : "input-content.tsx",
+          // },
           {
             id:326,
             title: "Radio",
@@ -337,15 +337,15 @@ const GuideMenuData: MenuItem[] = [
             thumbSrc : "/com_doc/banner.svg",
             contentSrc : "banner-content.tsx",
           },
-          {
-            id:353,
-            title: "Snackbar",
-            headlineTitle: "Snackbar",
-            url:"/guide_doc/banner",
-            headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
-            thumbSrc : "/com_doc/button.svg",
-            contentSrc : "banner-content.tsx",
-          },
+          // {
+          //   id:353,
+          //   title: "Snackbar",
+          //   headlineTitle: "Snackbar",
+          //   url:"/guide_doc/banner",
+          //   headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
+          //   thumbSrc : "/com_doc/button.svg",
+          //   contentSrc : "banner-content.tsx",
+          // },
           {
             id:354,
             title: "Toast",
@@ -355,15 +355,15 @@ const GuideMenuData: MenuItem[] = [
             thumbSrc : "/com_doc/button.svg",
             contentSrc : "toast-content.tsx",
           },
-          {
-            id:355,
-            title: "Tooltip",
-            headlineTitle: "Tooltip",
-            url:"/guide_doc/tooltip",
-            headlineCopy: "Tooltip은 새로운 콘텐츠와 기능을 소개하거나 간단한 단계별 안내를 제공하는 데 사용되는 간단하고 유익한 메시지입니다.",
-            thumbSrc : "/com_doc/button.svg",
-            contentSrc : "tooltip-content.tsx",
-          }
+          // {
+          //   id:355,
+          //   title: "Tooltip",
+          //   headlineTitle: "Tooltip",
+          //   url:"/guide_doc/tooltip",
+          //   headlineCopy: "Tooltip은 새로운 콘텐츠와 기능을 소개하거나 간단한 단계별 안내를 제공하는 데 사용되는 간단하고 유익한 메시지입니다.",
+          //   thumbSrc : "/com_doc/button.svg",
+          //   contentSrc : "tooltip-content.tsx",
+          // }
         ]
       },
       {
@@ -412,15 +412,15 @@ const GuideMenuData: MenuItem[] = [
             thumbSrc : "/com_doc/link.svg",
             contentSrc : "breadcrumb-content.tsx"
           },
-          {
-            id:372,
-            title: "Bottom Bar",
-            headlineTitle: "Bottom Bar",
-            url:"/guide_doc/bottom-bar",
-            headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
-            thumbSrc : "/com_doc/button.svg",
-            contentSrc : "bottom-bar-content.tsx",
-          },
+          // {
+          //   id:372,
+          //   title: "Bottom Bar",
+          //   headlineTitle: "Bottom Bar",
+          //   url:"/guide_doc/bottom-bar",
+          //   headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
+          //   thumbSrc : "/com_doc/button.svg",
+          //   contentSrc : "bottom-bar-content.tsx",
+          // },
           {
             id:373,
             title: "Link",
@@ -430,15 +430,15 @@ const GuideMenuData: MenuItem[] = [
             thumbSrc : "/com_doc/button.svg",
             contentSrc : "link-content.tsx",
           },
-          {
-            id:374,
-            title: "Navigation Header",
-            headlineTitle: "Navigation Header",
-            url:"/guide_doc/navigation-header",
-            headlineCopy: "Navigation Header는 화면의 컨텍스트를 설정하고 사용자가 다양한 흐름을 쉽게 탐색할 수 있도록 하는 상단에 고정된 구성 요소입니다.",
-            thumbSrc : "/com_doc/button.svg",
-            contentSrc : "navigation-header-content.tsx",
-          },
+          // {
+          //   id:374,
+          //   title: "Navigation Header",
+          //   headlineTitle: "Navigation Header",
+          //   url:"/guide_doc/navigation-header",
+          //   headlineCopy: "Navigation Header는 화면의 컨텍스트를 설정하고 사용자가 다양한 흐름을 쉽게 탐색할 수 있도록 하는 상단에 고정된 구성 요소입니다.",
+          //   thumbSrc : "/com_doc/button.svg",
+          //   contentSrc : "navigation-header-content.tsx",
+          // },
           {
             id:375,
             title: "Pagination",
@@ -457,43 +457,43 @@ const GuideMenuData: MenuItem[] = [
             thumbSrc : "/com_doc/button.svg",
             contentSrc : "tabs-content.tsx",
           },
-          {
-            id:378,
-            title: "Segmented Control",
-            headlineTitle: "Segmented Control",
-            url:"/guide_doc/segmented-control",
-            headlineCopy: "Segmented Control은 2개 이상의 Segment가 모인 가로형 네비게이션 요소이며 각 Segment는 버튼의 역할을 수행합니다.",
-            thumbSrc : "/com_doc/button.svg",
-            contentSrc : "segmented-control-content.tsx",
-          }
+          // {
+          //   id:378,
+          //   title: "Segmented Control",
+          //   headlineTitle: "Segmented Control",
+          //   url:"/guide_doc/segmented-control",
+          //   headlineCopy: "Segmented Control은 2개 이상의 Segment가 모인 가로형 네비게이션 요소이며 각 Segment는 버튼의 역할을 수행합니다.",
+          //   thumbSrc : "/com_doc/button.svg",
+          //   contentSrc : "segmented-control-content.tsx",
+          // }
         ]
       },
-      {
-        id: 38,
-        title: "Data and tables",
-        // children: [
-        //   {
-        //     id:331,
-        //     title: "Checkbox",
-        //     headlineTitle: "Checkbox",
-        //     url: "/guide_doc/checkbox",
-        //     headlineCopy: "체크박스는 사용자가 여러 개의 옵션 중 한 개 이상의 값을 선택할 수 있도록 하는 경우에 사용합니다.",
-        //     thumbSrc : "/com_doc/link.svg",
-        //     contentSrc : "./contents/checkbox-content.tsx",
-        //     linkVkds : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html",
-        //     linkShadcn : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
-        //   },
-        //   {
-        //     id:332,
-        //     title: "Date Picker",
-        //     headlineTitle: "Date Picker",
-        //     url:"/guide_doc/datepicker",
-        //     headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
-        //     thumbSrc : "/com_doc/button.svg",
-        //     contentSrc : "./contents/datepicker.tsx",
-        //   }
-        // ]
-      },
+      // {
+      //   id: 38,
+      //   title: "Data and tables",
+      //   children: [
+      //     {
+      //       id:331,
+      //       title: "Checkbox",
+      //       headlineTitle: "Checkbox",
+      //       url: "/guide_doc/checkbox",
+      //       headlineCopy: "체크박스는 사용자가 여러 개의 옵션 중 한 개 이상의 값을 선택할 수 있도록 하는 경우에 사용합니다.",
+      //       thumbSrc : "/com_doc/link.svg",
+      //       contentSrc : "./contents/checkbox-content.tsx",
+      //       linkVkds : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html",
+      //       linkShadcn : "https://uiux.egovframe.go.kr/guide/component/component_04_07.html" 
+      //     },
+      //     {
+      //       id:332,
+      //       title: "Date Picker",
+      //       headlineTitle: "Date Picker",
+      //       url:"/guide_doc/datepicker",
+      //       headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
+      //       thumbSrc : "/com_doc/button.svg",
+      //       contentSrc : "./contents/datepicker.tsx",
+      //     }
+      //   ]
+      // },
     ] /* Components END */
   },
   {
@@ -502,17 +502,63 @@ const GuideMenuData: MenuItem[] = [
     children:[
       {
         id:41,
-        title:"Mobile Page sample",
+        title:"App 공통요소",
         children: [
           {
             id:411,
-            title: "Mobile Sample 1",
-            headlineTitle: "Mobile Sample 1",
-            url:"/guide_doc/sample-page-1",
-            headlineCopy: "ui 컴포넌트 사용예시 및 테스트 용",
-            thumbSrc : "/com_doc/button.svg",
-            contentSrc : "sample-page-1.tsx",
+            title: "Header Navigation",
+            headlineTitle: "Header Navigation",
+            url:"/guide_doc/pattern-common-header",
+            headlineCopy: "App 전체 Navigation을 위한 Header Navigation 입니다",
+            contentSrc : "pattern-common-header.tsx",
+          },
+          {
+            id:412,
+            title: "전체메뉴",
+            headlineTitle: "전체메뉴 Modal",
+            url:"/guide_doc/pattern-common-nav",
+            headlineCopy: "열린 전체메뉴 Modal",
+            contentSrc : "pattern-common-nav.tsx",
+          },
+          {
+            id:413,
+            title: "Footer",
+            headlineTitle: "Footer",
+            url:"/guide_doc/pattern-common-footer",
+            headlineCopy: "App 공통 Footer 컴포넌트",
+            contentSrc : "pattern-common-footer.tsx",
+          },
+          {
+            id:414,
+            title: "Basic Card",
+            headlineTitle: "Basic Card",
+            url:"/guide_doc/pattern-common-basic-card",
+            headlineCopy: "App 전체에 사용되는 기본 Card 컴포넌트",
+            contentSrc : "pattern-common-card-1.tsx",
           }
+        ]
+      },
+      {
+        id:42,
+        title:"Page",
+        children: [
+          {
+            id:421,
+            title: "Home (MO)",
+            headlineTitle: "Home",
+            url:"/guide_doc/page-home-1",
+            headlineCopy: "App 홈화면 - Mobile 모드",
+            contentSrc : "page-home-1.tsx",
+          },
+          {
+            id:422,
+            title: "Home (PC)",
+            headlineTitle: "Home",
+            url:"/guide_doc/page-home-2",
+            headlineCopy: "App 홈화면 - Desktop 모드",
+            contentSrc : "page-home-2.tsx",
+          }
+          
         ]
       }
     ]
