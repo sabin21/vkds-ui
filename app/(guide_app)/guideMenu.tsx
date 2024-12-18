@@ -59,7 +59,7 @@ const GuideMenuData: MenuItem[] = [
     children: [
       {
         id: 31,
-        title: "Buttons",
+        title: "Actions",
         children: [
           {
             id:311,
