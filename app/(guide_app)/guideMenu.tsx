@@ -498,7 +498,7 @@ const GuideMenuData: MenuItem[] = [
   },
   {
     id:4,
-    title:"Pattern",
+    title:"Patterns",
     children:[
       {
         id:41,
@@ -572,7 +572,7 @@ const GuideMenuData: MenuItem[] = [
       },
       {
         id:42,
-        title:"Page",
+        title:"Pages",
         children: [
           {
             id:4210,

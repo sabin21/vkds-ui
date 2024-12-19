@@ -50,9 +50,57 @@ const ComponentsView = (): ReactNode => {
     //     ))}
     //   </ul>
     // </div>
-    <div className="guide-main-wrap">
-      <div className="block-wrap">
-        
+    <div className="guide-index-wrap">
+      <div className="hero-wrap">
+        <img src="/img/guide_doc/index_hero_title.png" className="hero-title" />
+      </div>
+      <div className="inner-wrap">
+        <div className="row">
+          <Link className="index-link-item intro" href={'/guide/guide_doc/intro-main'}>
+            <h4 className='title1'>Introduction</h4>
+          </Link>
+          <div className="index-link-item black">
+            <h4 className='title1'>Foundation</h4>
+            <div className="links-wrap">
+              <Link className='link-item' href={'/guide/guide_doc/foundation-color'}>Colors</Link>
+              <Link className='link-item' href={'/guide/guide_doc/foundation-typography'}>Typography</Link>
+              <Link className='link-item' href={'/guide/guide_doc/foundation-icons'}>Icons</Link>
+              <Link className='link-item' href={'/guide/guide_doc/foundation-layout'}>Layout</Link>
+              <Link className='link-item dimmed' href={'#'}> </Link>
+              <Link className='link-item dimmed' href={'#'}> </Link>
+            </div>
+          </div>
+          
+        </div>
+        <div className="index-link-item gray">
+          <h4 className='title1'>Components</h4>
+          <div className="links-wrap">
+            <Link className='link-item' href={'/guide/guide_doc/action-button'}>Actions</Link>
+            <Link className='link-item' href={'/guide/guide_doc/checkbox'}>Input and Selection</Link>
+            <Link className='link-item' href={'/guide/guide_doc/badge'}>Indicator and Status</Link>
+            <Link className='link-item' href={'/guide/guide_doc/accordion'}>Content Display</Link>
+            <Link className='link-item' href={'/guide/guide_doc/alert-dialog'}>Messaging</Link>
+            <Link className='link-item' href={'/guide/guide_doc/drawer'}>Container and layout</Link>
+            <Link className='link-item' href={'/guide/guide_doc/breadcrumb'}>Navigation</Link>
+          </div>
+        </div>
+        <div className="index-link-item gray big">
+          <h4 className='title1'>Patterns</h4>
+          <div className="links-wrap">
+            <Link className='link-item' href={'/guide/guide_doc/pattern-common-header'}>
+              <h5>App common</h5> 
+              <span className='desc'>
+                App 전체에 공통적으로 사용되는 UI Components들
+              </span>
+            </Link>
+            <Link className='link-item' href={'/guide/guide_doc/page-home-1'}>
+              <h5>Pages</h5> 
+              <span className='desc'>
+                중요 화면 구조 정의
+              </span>
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   );

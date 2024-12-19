@@ -405,3 +405,72 @@ body{
 .block-spacing-64{ display: block; height:64px; }
 .block-spacing-80{ display: block; height:80px; }
 
+/* Guide Index --------*/
+
+.guide-index-wrap{
+  width:100%;
+  >.hero-wrap{
+    width:100%; height:680px; background-color: black; position: relative;
+    background-image: url('/img/guide_doc/index_hero_back.png');
+    background-repeat: no-repeat; background-position: center center;
+    >.hero-title{
+      width:600px; height: 146px; position: absolute; margin: auto; left:0; right:0; top:0; bottom:0; 
+    }
+  }
+  >.inner-wrap{
+    display: flex; width:1130px; flex-direction: column; gap: 28px; position: relative; margin: 120px auto;
+    >.row{
+      width:100%; display: flex; gap:28px; height: 320px;
+    }
+    .index-link-item{
+      display: block; width:100%; height: 100%; border-radius: 16px;
+      padding: 40px ;
+      >.title1{
+        font-size: 32px; font-weight: bold; width:100%; margin-bottom: 40px;
+      }
+      &.intro{
+        background-color: #2E74FF; width:33%;
+        >.title1{ color:white; }
+      }
+      &.black, &.gray{
+        background-color: black; color: white; width:66%;
+        >.links-wrap{
+          width:100%; display: flex; flex-wrap: wrap; gap: 16px; height:70%;
+          >.link-item{
+            width: 31%; font-size: 20px; font-weight: bold; padding: 16px; border-radius: 8px; 
+            border: 1.6px solid white; text-align: center; display: flex; align-items: center; justify-content: center;
+            &.dimmed{ opacity: 0.3; pointer-events: none;}
+            &:hover{
+              background-color: #303030;
+            }
+          }
+        }
+      }
+      &.gray{
+        background-color: #F0F3FB; width:100%; height:420px;
+        >.title1 { color:black;}
+        >.links-wrap{
+          height: calc(100% - 80px);
+          >.link-item{
+            width:23%; color: black; border: 1.6px solid black; justify-content: left; align-items: start; height:120px;
+            &:hover{
+              background-color: white;
+            }
+          }
+        }
+        
+      }
+      &.big{
+        >.links-wrap{
+          height: calc(100% - 80px);
+          >.link-item{
+            width: 48%; display: flex; flex-direction: column; height:100%;
+            >.desc{
+              font-size: 18px; font-weight: 500; display: block; margin-top:12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
