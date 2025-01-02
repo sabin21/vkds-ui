@@ -9,9 +9,13 @@ export default function ComViewContent() {
   return (
     <div className="content-wrap">
 
-      <div className="section-block level2">
+      <img src="/img/guide_doc/doc_heading.png" className="full-img" />
 
-        {/* <h4>Primary</h4> */}
+      <div className="guide-title-level1">
+        <h4 className="title">Usage</h4>
+      </div>
+
+      <div className="section-block level2">
         <div className="component-view-wrap bg-gray-light">
           <div className="inner-view">
             <div className="frame-390" style={{height: '700px', padding: '0'}}>

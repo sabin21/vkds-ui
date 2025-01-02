@@ -191,6 +191,16 @@ export default function ComViewContent() {
   return (
     <div className='content-wrap'>
     
+    <div className="guide-title-level1">
+      <h4 className="title">Anatomy</h4>
+    </div>
+
+    <img src="/img/guide_doc/tile_anatomy.png" className="full-img" />
+
+    <div className="guide-title-level1">
+      <h4 className="title">Usage</h4>
+    </div>
+
     <div className="section-block">
       <h3>구성 예시</h3>
     </div>
