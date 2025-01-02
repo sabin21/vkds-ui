@@ -78,7 +78,8 @@
     --input-square-size:20px;
     appearance: none; height:var(--input-square-size); width:var(--input-square-size);
     display: inline-block; position: relative; margin: 0; padding:0; cursor: pointer; 
-    border: 1.6px solid var(#{$prefix}-color-inputs-border-default);
+    border: 1.6px solid var(#{$prefix}-color-global-gray-40);
+    background-color: var(#{$prefix}-color-global-gray-5);
     transition: background-color var(--duration-200) var(--ease-out);
 
     &:disabled{

@@ -13,13 +13,16 @@ export default function ComViewContent() {
 
     <span className="section-block level2">
 
-    <div className="guide-title-level1">
+      <div className="guide-title-level1">
         <h4 className="title">Anatomy</h4>
       </div>
 
       <img src="/img/guide_doc/chips_anatomy.png" className="full-img" />
 
-      <span className="block h-24"></span>
+      <div className="guide-title-level1">
+      <h4 className="title">Variants</h4>
+    </div>
+
       <h4 className="view-block-title">Standard Style</h4>
     
     <div className="component-view-wrap">
@@ -137,6 +140,10 @@ export default function ComViewContent() {
       </div>
     </div>
 
+    <div className="guide-title-level1">
+      <h4 className="title">Usage</h4>
+    </div>
+
     <h4 className="view-block-title">Action Items Bar 적용</h4>
     
     <div className="component-view-wrap bg-gray-light">
@@ -176,6 +183,10 @@ export default function ComViewContent() {
         </div>  
       </div>
     </div>
+
+
+    <img src="/img/guide_doc/chip_usage_1.png" className="full-img" />
+      
 
     </span>
 

@@ -17,9 +17,16 @@ export default function ComViewContent() {
 
     </div>
 
-    <span className="view-block-title-wrap">
-      <h4 className="view-block-title">Size Variation</h4>
-    </span>
+    <div className="guide-title-level1">
+      <h4 className="title">Anatomy</h4>
+    </div>
+
+    <img src="/img/guide_doc/numberic_stepper_anatomy.png" className="full-img" />
+
+    <div className="guide-title-level1">
+      <h4 className="title">Variants</h4>
+    </div>
+
     <div className="component-view-wrap" data-theme="light">
       <div className="inner-view">
         <div className="example-view">

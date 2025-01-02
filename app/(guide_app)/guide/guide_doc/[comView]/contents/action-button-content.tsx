@@ -7,20 +7,26 @@ export default function ComViewContent() {
     
   return (
     <div className="content-wrap">
-    <div className="content-col">
-      <div className="block">
+     
         <p>
           Action Button은 반복적이고 복잡한 작업을 수행하기 위해 사용되는 버튼이므로 
           단순한 형태와 색상으로 지나치게 시선을 끌지 않도록 디자인되었습니다. 또한 다양한 곳에 적용될 수 있도록
           스타일과 사이즈의 Variation을 다양하게 사용합니다. 
         </p>
+
+      <div className="guide-title-level1">
+        <h4 className="title">Anatomy</h4>
       </div>
-      
-    </div>
+
+      <img src="/img/guide_doc/action_button_anatomy.png" className="full-img" />
+
+      <div className="guide-title-level1">
+        <h4 className="title">Variants</h4>
+      </div>
 
     <div className="section-block level2">
 
-    <h4>Standard</h4>
+    <h4 className="view-block-title">Standard</h4>
     <div className="component-view-wrap bg-gray-light" data-theme="light">
       <div className="inner-view">
         <div className="example-view">

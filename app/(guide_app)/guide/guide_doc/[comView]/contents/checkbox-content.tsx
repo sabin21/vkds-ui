@@ -32,6 +32,13 @@ const codeSample1 =
 
   return (
     <div className='content-wrap'>
+
+      <div className="guide-title-level1">
+        <h4 className="title">Anatomy</h4>
+      </div>
+
+      <img src="/img/guide_doc/checkbox_anatomy.png" className="full-img" />
+
       <span className="view-block-title-wrap">
         <h4 className="view-block-title">기본사용예시</h4>
       </span>

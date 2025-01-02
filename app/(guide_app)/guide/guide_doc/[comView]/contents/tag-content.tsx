@@ -51,8 +51,18 @@ const codeSample1 =
   return (
     <div className="content-wrap">
 
+
+<div className="guide-title-level1">
+      <h4 className="title">Anatomy</h4>
+    </div>
+
+    <img src="/img/guide_doc/tag_anatomy.png" className="full-img" />
+
+    <div className="guide-title-level1">
+      <h4 className="title">Variants</h4>
+    </div>
+
     <span className="section-block level2">
-      <h4 className="view-block-title">Variant & Size</h4>
     
     <div className="component-view-wrap">
       <div className="inner-view">

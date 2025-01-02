@@ -7,13 +7,23 @@ export default function ComViewContent() {
     
   return (
     <div className="content-wrap">
-    <div className="content-col">
+    
       <div className="block">
         <p>
           Button은 주요 이벤트나 동작을 유도하기위해 중요하게 사용되므로 Action Button보다 시각적으로 강조된 Design Style을 적용합니다. 
         </p>
       </div>
       
+      <div className="guide-title-level1">
+        <h4 className="title">Anatomy</h4>
+      </div>
+
+      <img src="/img/guide_doc/button_anatomy.png" className="full-img" />
+
+    
+
+    <div className="guide-title-level1">
+      <h4 className="title">Variants</h4>
     </div>
 
     <div className="section-block level2">

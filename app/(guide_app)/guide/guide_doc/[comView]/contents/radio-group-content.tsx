@@ -45,8 +45,18 @@ const codeSample1 =
 `;
 
   return (
-    <div>
-      
+    <div className='content-wrap'>
+
+      <div className="guide-title-level1">
+        <h4 className="title">Anatomy</h4>
+      </div>
+
+      <img src="/img/guide_doc/radio_anatomy.png" className="full-img" />
+
+
+      <div className="guide-title-level1">
+        <h4 className="title">Usage</h4>
+      </div>
 
       <span className="view-block-title-wrap">
         <h4 className="view-block-title">기본사용예시</h4>

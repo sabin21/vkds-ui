@@ -57,9 +57,16 @@ const codeSample1 =
   return (
     <div>
 
-      <span className="view-block-title-wrap">
-        <h4 className="view-block-title">기본사용예시</h4>
-      </span>
+    <div className="guide-title-level1">
+      <h4 className="title">Anatomy</h4>
+    </div>
+
+    <img src="/img/guide_doc/switch_anatomy.png" className="full-img" />
+
+    <div className="guide-title-level1">
+      <h4 className="title">Usage</h4>
+    </div>
+
       <div className="component-view-wrap">
         <div className="inner-view flex-col">
         

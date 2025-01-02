@@ -16,6 +16,16 @@ export default function ComViewContent() {
       
     </div>
 
+    <div className="guide-title-level1">
+      <h4 className="title">Anatomy</h4>
+    </div>
+
+    <img src="/img/guide_doc/indicator_anatomy.png" className="full-img" />
+
+    <div className="guide-title-level1">
+      <h4 className="title">Variants</h4>
+    </div>
+
     <span className="view-block-title-wrap">
       <h4 className="view-block-title">Text Style</h4>
     </span>

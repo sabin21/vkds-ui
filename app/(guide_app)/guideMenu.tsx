@@ -78,7 +78,16 @@ const GuideMenuData: MenuItem[] = [
             headlineCopy: "Button은 특정 이벤트나 동작을 발생시키며 사용자에게 다음 액션에서 무슨 일이 일어날지 알려줍니다.",
             thumbSrc : "/com_doc/button.svg",
             contentSrc : "button-content.tsx"
-          }
+          },
+          {
+            id:313,
+            title: "Chips",
+            headlineTitle: "Chip",
+            url: "/guide_doc/chip",
+            headlineCopy: "칩(Chips)은 사용자로 하여금 정보, 선택, 콘텐츠의 필터링, 그리고 특정 액션을 유도합니다.",
+            thumbSrc : "/com_doc/tag.svg",
+            contentSrc : "chip-content.tsx"
+          },
         ]
       },
       {
@@ -94,15 +103,7 @@ const GuideMenuData: MenuItem[] = [
             thumbSrc : "/com_doc/checkbox.svg",
             contentSrc : "checkbox-content.tsx"
           },
-          {
-            id:322,
-            title: "Chips",
-            headlineTitle: "Chip",
-            url: "/guide_doc/chip",
-            headlineCopy: "칩(Chips)은 사용자로 하여금 정보, 선택, 콘텐츠의 필터링, 그리고 특정 액션을 유도합니다.",
-            thumbSrc : "/com_doc/tag.svg",
-            contentSrc : "chip-content.tsx"
-          },
+          
           // {
           //   id:323,
           //   title: "Date Picker",
@@ -121,15 +122,7 @@ const GuideMenuData: MenuItem[] = [
           //   thumbSrc : "/com_doc/button.svg",
           //   contentSrc : "form-content.tsx",
           // },
-          // {
-          //   id:325,
-          //   title: "Input",
-          //   headlineTitle: "Input",
-          //   url:"/guide_doc/input",
-          //   headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
-          //   thumbSrc : "/com_doc/textfield.svg",
-          //   contentSrc : "input-content.tsx",
-          // },
+          
           {
             id:326,
             title: "Radio",
@@ -139,6 +132,7 @@ const GuideMenuData: MenuItem[] = [
             thumbSrc : "/com_doc/radio.svg",
             contentSrc : "radio-group-content.tsx",
           },
+          
           {
             id:327,
             title: "Numberic Stepper",
@@ -149,13 +143,13 @@ const GuideMenuData: MenuItem[] = [
             contentSrc : "numberic-stepper-content.tsx",
           },
           {
-            id:328,
-            title: "Select",
-            headlineTitle: "Select",
-            url:"/guide_doc/select",
-            headlineCopy: "Select를 사용하여 미리 준비된 값 목록을 확인하고 선택할 수 있도록 합니다.",
-            thumbSrc : "/com_doc/select.svg",
-            contentSrc : "select-content.tsx",
+            id:325,
+            title: "Text Fields",
+            headlineTitle: "Text Fields",
+            url:"/guide_doc/input",
+            headlineCopy: "텍스트 필드(Text Fields)는 사용자가 UI 상 텍스트 입력 및 확인 시 활용되는 컴포넌트입니다.",
+            thumbSrc : "/com_doc/textfield.svg",
+            contentSrc : "input-content.tsx",
           },
           {
             id:329,
@@ -171,7 +165,7 @@ const GuideMenuData: MenuItem[] = [
             title: "Switch",
             headlineTitle: "Switch",
             url:"/guide_doc/switch",
-            headlineCopy: "Slider를 이용하면 사용자가 단일 숫자 값이나 최소값과 최대값 사이의 범위를 선택할 수 있습니다.",
+            headlineCopy: "특정 옵션을 켜고 끄기 위한 Control Interface 입니다. 사용자는 스위치를 보고 옵션의 상태를 이해할 수 있습니다.",
             thumbSrc : "/com_doc/button.svg",
             contentSrc : "switch-content.tsx",
           }
@@ -228,7 +222,7 @@ const GuideMenuData: MenuItem[] = [
             title: "Avatar",
             headlineTitle: "Avatar",
             url:"/guide_doc/avatar",
-            headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
+            headlineCopy: "Avatar은 사용자를 표상하는 이미지 컴포넌트입니다. 기본적으로 프로필이미지를 사용하며 옵션으로 이니셜을 사용할 수 있습니다.",
             thumbSrc : "/com_doc/avatar.svg",
             contentSrc : "avatar-content.tsx",
           },
@@ -268,15 +262,15 @@ const GuideMenuData: MenuItem[] = [
             thumbSrc : "/com_doc/button.svg",
             contentSrc : "carousel-cards-content.tsx",
           },
-          {
-            id:348,
-            title: "Carousel",
-            headlineTitle: "Carousel",
-            url:"/guide_doc/carousel",
-            headlineCopy: "Carousel은 연관된 그룹의 컨텐츠를 가로방향으로 순차적으로 보여줍니다.",
-            thumbSrc : "/com_doc/button.svg",
-            contentSrc : "carousel-content.tsx",
-          },
+          // {
+          //   id:348,
+          //   title: "Carousel",
+          //   headlineTitle: "Carousel",
+          //   url:"/guide_doc/carousel",
+          //   headlineCopy: "Carousel은 연관된 그룹의 컨텐츠를 가로방향으로 순차적으로 보여줍니다.",
+          //   thumbSrc : "/com_doc/button.svg",
+          //   contentSrc : "carousel-content.tsx",
+          // },
           {
             id:349,
             title: "List Item",
@@ -286,15 +280,15 @@ const GuideMenuData: MenuItem[] = [
             thumbSrc : "/com_doc/button.svg",
             contentSrc : "list-item-content.tsx",
           },
-          {
-            id:350,
-            title: "List",
-            headlineTitle: "List",
-            url:"/guide_doc/list",
-            headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
-            thumbSrc : "/com_doc/button.svg",
-            contentSrc : "list-content.tsx",
-          },
+          // {
+          //   id:350,
+          //   title: "List",
+          //   headlineTitle: "List",
+          //   url:"/guide_doc/list",
+          //   headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
+          //   thumbSrc : "/com_doc/button.svg",
+          //   contentSrc : "list-content.tsx",
+          // },
           {
             id:351,
             title: "Section Heading",

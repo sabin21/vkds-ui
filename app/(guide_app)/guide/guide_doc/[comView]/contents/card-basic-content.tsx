@@ -17,6 +17,16 @@ export default function ComViewContent() {
       카드안에 사용되는 Media 유형은 사진이미지, Artwork, 지도, 영상입니다.
       </p>   
 
+    <div className="guide-title-level1">
+      <h4 className="title">Anatomy</h4>
+    </div>
+
+    <img src="/img/guide_doc/card_anatomy.png" className="full-img" />
+
+    <div className="guide-title-level1">
+      <h4 className="title">Variants</h4>
+    </div>
+
     <div className="section-block level2">
 
     <h4>Card Body - 구성예시</h4>
@@ -88,11 +98,11 @@ export default function ComViewContent() {
                     </span>
                   </div>
                 </div>
-                <div className="trailing-item artwork">
+                {/* <div className="trailing-item artwork">
                   <div className="artwork">
                     <img src="/img/sample/artwork_2.png" alt="" />
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -140,11 +150,11 @@ export default function ComViewContent() {
                       <span className='currency-unit'>원</span>
                     </div>
                   </Link>
-                  <div className='trailing-item'>
+                  {/* <div className='trailing-item'>
                     <div className="artwork">
                       <img src="/img/sample/artwork_1.png" alt="" />
                     </div>
-                  </div>
+                  </div> */}
                 </span>
                 <span className="tag-line">
                   <Tag>태그명1</Tag><Tag>태그명2</Tag><Tag>태그명3</Tag><Tag>태그명4</Tag>

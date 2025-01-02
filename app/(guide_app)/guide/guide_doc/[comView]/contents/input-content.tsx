@@ -6,14 +6,6 @@ export default function ComViewContent() {
     
   return (
     <div>
-    <div className="content-col">
-      <div className="block">
-        <p>
-          Use default buttons for most actions that aren't the main call to action for a page or area. 
-          Default buttons are less prominent than primary buttons.
-        </p>
-      </div>      
-    </div>
 
     <div className="component-view-wrap">
       <div className="inner-view">
