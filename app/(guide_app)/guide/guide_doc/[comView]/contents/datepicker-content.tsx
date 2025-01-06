@@ -16,21 +16,24 @@ import * as React from "react"
 export default function ComViewContent() {
   const [date, setDate] = React.useState(new Date());
   return (
-    <div>
-    <div className="content-col">
-      <div className="block">
-        <p>
-          Use default buttons for most actions that aren't the main call to action for a page or area. 
-          Default buttons are less prominent than primary buttons.
-        </p>
-      </div>      
+    <div className="content-wrap">
+    
+    <div className="guide-title-level1">
+      <h4 className="title">Anatomy</h4>
     </div>
 
-    <div className="component-view-wrap">
+    <img src="/img/guide_doc/datepicker_anatomy.png" className="full-img" />
+
+    <div className="guide-title-level1">
+      <h4 className="title">Variants</h4>
+    </div>
+    <img src="/img/guide_doc/datepicker_size.png" className="full-img" />
+
+    {/* <div className="component-view-wrap">
       <div className="inner-view" style={{backgroundColor:"var(#{$prefix}-color-global-gray-5"}}>
         <div className="example-view" style={{height: "400px", alignItems:"start", paddingTop:"60px"}}>
 
-        {/* <Popover>
+        <Popover>
           <PopoverTrigger asChild>
             <ActionButton
               variant={"default"}
@@ -52,11 +55,11 @@ export default function ComViewContent() {
               initialFocus
             />
           </PopoverContent>
-        </Popover> */}
+        </Popover>
 
         </div>  
       </div>
-    </div>
+    </div> */}
 
     </div>
   );

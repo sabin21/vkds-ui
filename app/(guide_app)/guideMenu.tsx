@@ -104,15 +104,15 @@ const GuideMenuData: MenuItem[] = [
             contentSrc : "checkbox-content.tsx"
           },
           
-          // {
-          //   id:323,
-          //   title: "Date Picker",
-          //   headlineTitle: "Date Picker",
-          //   url:"/guide_doc/datepicker",
-          //   headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
-          //   thumbSrc : "/com_doc/datetime-picker.svg",
-          //   contentSrc : "datepicker-content.tsx",
-          // },
+          {
+            id:323,
+            title: "Date Picker",
+            headlineTitle: "Date Picker",
+            url:"/guide_doc/datepicker",
+            headlineCopy: "범위와 사전 설정이 포함된 날짜 선택기 구성요소입니다.",
+            thumbSrc : "/com_doc/datetime-picker.svg",
+            contentSrc : "datepicker-content.tsx",
+          },
           // {
           //   id:324,
           //   title: "Forms",
@@ -142,15 +142,7 @@ const GuideMenuData: MenuItem[] = [
             thumbSrc : "/com_doc/button.svg",
             contentSrc : "numberic-stepper-content.tsx",
           },
-          {
-            id:325,
-            title: "Text Fields",
-            headlineTitle: "Text Fields",
-            url:"/guide_doc/input",
-            headlineCopy: "텍스트 필드(Text Fields)는 사용자가 UI 상 텍스트 입력 및 확인 시 활용되는 컴포넌트입니다.",
-            thumbSrc : "/com_doc/textfield.svg",
-            contentSrc : "input-content.tsx",
-          },
+          
           {
             id:329,
             title: "Slider",
@@ -168,6 +160,15 @@ const GuideMenuData: MenuItem[] = [
             headlineCopy: "특정 옵션을 켜고 끄기 위한 Control Interface 입니다. 사용자는 스위치를 보고 옵션의 상태를 이해할 수 있습니다.",
             thumbSrc : "/com_doc/button.svg",
             contentSrc : "switch-content.tsx",
+          },
+          {
+            id:325,
+            title: "Text Fields",
+            headlineTitle: "Text Fields",
+            url:"/guide_doc/textfield",
+            headlineCopy: "텍스트 필드(Text Fields)는 사용자가 UI 상 텍스트 입력 및 확인 시 활용되는 컴포넌트입니다.",
+            thumbSrc : "/com_doc/textfield.svg",
+            contentSrc : "textfield-content.tsx",
           }
         ]
       },
@@ -318,7 +319,7 @@ const GuideMenuData: MenuItem[] = [
             title: "Alert Dialog",
             headlineTitle: "Alert Dialog",
             url: "/guide_doc/alert-dialog",
-            headlineCopy: "체크박스는 사용자가 여러 개의 옵션 중 한 개 이상의 값을 선택할 수 있도록 하는 경우에 사용합니다.",
+            headlineCopy: "Alert Dialog는 현재 작업과 관련된 긴급 정보를 사용자에게 알립니다. 사용자의 결정에 대해 경고를 하거나 결과를 전달하는 데 사용하며 사용자가 액션을 취하기 전까지 화면에 남아 있습니다.",
             thumbSrc : "/com_doc/modal-dialog.svg",
             contentSrc : "alert-dialog-content.tsx",
           },
@@ -382,15 +383,15 @@ const GuideMenuData: MenuItem[] = [
             thumbSrc : "/com_doc/button.svg",
             contentSrc : "popover-content.tsx",
           },
-          {
-            id:366,
-            title: "Sheet",
-            headlineTitle: "Sheet",
-            url:"/guide_doc/sheet",
-            headlineCopy: "Sheet는 현재 화면에서 이동하지 않고 추가적인 정보를 전달하거나 보조적인 동작을 수행할 수 있는 수단을 제공하는 목적으로 사용됩니다.",
-            thumbSrc : "/com_doc/button.svg",
-            contentSrc : "sheet-content.tsx",
-          },
+          // {
+          //   id:366,
+          //   title: "Sheet",
+          //   headlineTitle: "Sheet",
+          //   url:"/guide_doc/sheet",
+          //   headlineCopy: "Sheet는 현재 화면에서 이동하지 않고 추가적인 정보를 전달하거나 보조적인 동작을 수행할 수 있는 수단을 제공하는 목적으로 사용됩니다.",
+          //   thumbSrc : "/com_doc/button.svg",
+          //   contentSrc : "sheet-content.tsx",
+          // },
         ]
       },
       {

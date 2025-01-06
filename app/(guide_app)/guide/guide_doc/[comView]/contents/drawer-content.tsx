@@ -20,7 +20,27 @@ import {
 export default function ComViewContent() {
   
   return (
-    <div>
+    <div className="content-wrap">
+
+      <p>
+        Drawer는 페이지를 이탈하지 않고 집중이 필요한 중요 정보를 표시하거나 복잡한 정보 입력을 요청할 시 사용 하는 
+        대화 상자의 대안이며 활성화되면 사용자는 페이지의 컨텐츠에서 차단되어 작업을 완료하거나 Drawer를 닫을 때 까지 
+        이전 페이지로 돌아갈 수 없기 때문에 꼭 필요한 상황에서만 사용할 수 있도록 해야 합니다.
+      </p>   
+
+    <div className="guide-title-level1">
+      <h4 className="title">Anatomy</h4>
+    </div>
+
+    <img src="/img/guide_doc/drawer_anatomy.png" className="full-img" />
+
+    <div className="guide-title-level1">
+      <h4 className="title">Variants</h4>
+    </div>
+    <span className="view-block-title-wrap">
+      <h4 className="view-block-title">Type</h4>
+    </span>
+    <img src="/img/guide_doc/drawer_type.png" className="full-img" />
 
     <span className="view-block-title-wrap">
       <h4 className="view-block-title">기본사용예시</h4>

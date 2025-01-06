@@ -1,11 +1,7 @@
 "use client"
 
-import Image from 'next/image'
+
 import Link from 'next/link'
-import { Checkbox } from '@/components/ui/checkbox';
-import { Switch } from '@/components/ui/switch';
-import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
-import { ActionButton } from "@/components/ui/action-button";
 import { Button } from "@/components/ui/button";
 import { BrandsNaverN } from '@/components/icons/icons_brands';
 import { XIcon, ChevronRight, HouseIcon, MapIcon, MessageCircleCodeIcon, ShareIcon, EllipsisVerticalIcon, HomeIcon } from "lucide-react";
@@ -18,6 +14,21 @@ export default function ComViewContent() {
       이미지 소스를 사용할 수 없는 경우 또는 소스가 지정되지 않은 경우 아바타 구성 요소는 기본 이미지를 표시합니다.
       </p>    */}
 
+    <div className="guide-title-level1">
+      <h4 className="title">Anatomy</h4>
+    </div>
+
+    <img src="/img/guide_doc/list_item_anatomy.png" className="full-img" />
+
+    <div className="guide-title-level1">
+      <h4 className="title">Variants</h4>
+    </div>
+    <img src="/img/guide_doc/list_item_variant.png" className="full-img" />
+
+    <div className="section-block pt-16">
+      <h3>구성 예시</h3>
+    </div>
+    
     <div className="section-block level2">
 
       <h4>Text block + Button</h4>
